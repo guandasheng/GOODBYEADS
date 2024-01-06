@@ -26,15 +26,15 @@ curl https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/mv.txt |
 
 echo '下载规则'
 rules=(
-  "https://filters.adtidy.org/android/filters/2_optimized.txt" #adg基础过滤器
-  "https://filters.adtidy.org/android/filters/11_optimized.txt" #adg移动设备过滤器
-  "https://filters.adtidy.org/android/filters/17_optimized.txt"  #adgURL过滤器
-  "https://filters.adtidy.org/android/filters/3_optimized.txt" #adg防跟踪
-  "https://filters.adtidy.org/android/filters/224_optimized.txt" #adg中文过滤器
-  "https://perflyst.github.io/PiHoleBlocklist/SmartTV-AGH.txt" #Tv规则
-  "https://easylist-downloads.adblockplus.org/easyprivacy.txt" #EasyPrivacy隐私保护规则
-  "https://raw.githubusercontent.com/Noyllopa/NoAppDownload/master/NoAppDownload.txt" #去APP下载提示规则
-  "https://raw.githubusercontent.com/d3ward/toolz/master/src/d3host.adblock" #d3ward规则
+  "https://raw.githubusercontent.com/8680/GOODBYEADS/master/rules.txt" #adg基础过滤器
+  "https://adrules.top/dns.txt" #adg移动设备过滤器
+  "https://anti-ad.net/easylist.txt"  #adgURL过滤器
+  "https://github.com/Potterli20/file/releases/download/github-hosts/Accelerate-Hosts.txt" #adg防跟踪
+  "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt" #adg中文过滤器
+  "https://raw.githubusercontent.com/lingeringsound/10007_auto/master/reward" #Tv规则
+  "https://raw.githubusercontent.com/5whys-adblock/AdGuardHome-rules/main/rules/output_full.txt" #EasyPrivacy隐私保护规则
+  "https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdns.txt" #去APP下载提示规则
+  "https://raw.githubusercontent.com/hululu1068/AdGuard-Rule/main/rule/adgh.txt" #d3ward规则
  )
 
 allow=(
