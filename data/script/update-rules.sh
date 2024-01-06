@@ -62,27 +62,7 @@ wait
                                                         
 echo 开始合并
 
-cat rules*.txt \
- |grep -Ev "^((\!)|(\[)).*" \
- | sort -n | uniq | awk '!a[$0]++' > tmp-rules.txt & #处理AdGuard的规则
-
-cat \
- | grep -E "^[(\@\@)|(\|\|)][^\/\^]+\^$" \
- | grep -Ev "([0-9]{1,3}.){3}[0-9]{1,3}" \
- | sort | uniq > ll.txt &
-wait
-
-cat l*.txt \
- |grep -v '^!' | grep -E -v "^[\.||]+[com]+[\^]$" \
- |grep -Ev "^\^" \
- |sort -n |uniq >> tmp1-dns1.txt & #处理DNS规则
-wait
-cat tmp1-dns1.txt \
- | sort -n |uniq -u #去重过期域名
-wait
-
-cat *.txt | grep '^@' \
- | sort -n | uniq > tmp-allow.txt & #允许清单处理
+cat *.txt > tmp-rule.txt & #允许清单处理
 wait
 
 echo 规则合并完成
