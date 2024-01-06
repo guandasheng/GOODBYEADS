@@ -59,46 +59,7 @@ for i in $file; do
 done
 wait
 
-echo '处理规则中'
-
-cat | sort -n| grep -v -E "^((#.*)|(\s*))$" \
- | grep -v -E "^[0-9f\.:]+\s+(ip6\-)|(localhost|local|loopback)$" \
- | grep -Ev "local.*\.local.*$" \
- | sed s/127.0.0.1/0.0.0.0/g | sed s/::/0.0.0.0/g |grep '0.0.0.0' |grep -Ev '.0.0.0.0 ' | sort \
- |uniq >base-src-hosts.txt &
-wait
-cat base-src-hosts.txt | grep -Ev '#|\$|@|!|/|\\|\*'\
- | grep -v -E "^((#.*)|(\s*))$" \
- | grep -v -E "^[0-9f\.:]+\s+(ip6\-)|(localhost|loopback)$" \
- | sed 's/127.0.0.1 //' | sed 's/0.0.0.0 //' \
- | sed "s/^/||&/g" |sed "s/$/&^/g"| sed '/^$/d' \
- | grep -v '^#' \
- | sort -n | uniq | awk '!a[$0]++' \
- | grep -E "^((\|\|)\S+\^)" & #Hosts规则转ABP规则
-
-cat | sed '/^$/d' | grep -v '#' \
- | sed "s/^/@@||&/g" | sed "s/$/&^/g"  \
- | sort -n | uniq | awk '!a[$0]++' & #将允许域名转换为ABP规则
-
-cat | sed '/^$/d' | grep -v "#" \
- |sed "s/^/@@||&/g" | sed "s/$/&^/g" | sort -n \
- | uniq | awk '!a[$0]++' & #将允许域名转换为ABP规则
-
-cat | sed '/^$/d' | grep -v "#" \
- |sed "s/^/0.0.0.0 &/g" | sort -n \
- | uniq | awk '!a[$0]++' & #将允许域名转换为ABP规则
-
-cat *.txt | sed '/^$/d' \
- |grep -E "^\/[a-z]([a-z]|\.)*\.$" \
- |sort -u > l.txt &
-
-cat \
- | sed "s/^/||&/g" | sed "s/$/&^/g" &
-
-cat \
- | sed "s/^/0.0.0.0 &/g" &
-
-
+                                                        
 echo 开始合并
 
 cat rules*.txt \
