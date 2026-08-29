@@ -1,5 +1,5 @@
-! Version: 2026-08-29 05:33:37（北京时间） 
-! Total count: 705785
+! Version: 2026-08-29 12:35:21（北京时间） 
+! Total count: 705853
 !
 ! ! https://github.com/AdguardTeam/AdguardFilters/issues/191933
 ! ! https://github.com/AdguardTeam/Scriptlets/issues/160
@@ -78,12 +78,12 @@
 ! This section contains the list of rules that fix incorrect blocking. Rules must be domain-specific.
 ! Title: AdBlock DNS
 ! Title: AdRules DNS List
-! Total count: 197543
+! Total count: 197700
 ! URL - https://www.enedis.fr/faire-le-releve-en-ligne
 ! Unable to connect to PayPay (jp.ne.paypay.android)
 ! Unblock adblockanalytics.com marker
 ! Unblocking everything on check-in confirmation pages - blocking tracking breaks it
-! Update: 2026-08-28 16:31:05(GMT+8)
+! Update: 2026-08-29 05:38:30(GMT+8)
 ! Upstream Sources: https://github.com/Cats-Team/AdRules/blob/script/Source.md
 ! Version: 20260829040737
 ! Vodafone app - error when viewing detail
@@ -2220,11 +2220,11 @@
 !Title: AWAvenue Ads Rule
 !Title: anti-AD
 !Total lines: 902
-!Total lines: 94051
+!Total lines: 94630
 !Update content: Remove log.aliyuncs.com from domain suffix #211 close.\n\nRemoved 'log.aliyuncs.com' from the domain suffix list.
 !Update time: 2026-08-20 11:45:33 UTC+8
 !Version: 1.7.6-release
-!Version: 20260826030635
+!Version: 20260829094849
 !Yahoo
 !Yandex
 !csdn
@@ -2316,7 +2316,7 @@
 # Expires: around 1 day
 # Hosts End 
 # Hosts Start 
-# Last update at 2026-08-29 05:07:32 (Beijing Time)
+# Last update at 2026-08-29 11:32:19 (Beijing Time)
 # No resolution for assets-cdn.github.com assets-cdn.github.com
 # No resolution for contentsync.onenote.com contentsync.onenote.com
 # No resolution for download2.epicgames.com download2.epicgames.com
@@ -2361,7 +2361,7 @@
 # Title: 5whys Full block Adguard Home Rules List
 # Title: AdGuard、AdGuardHome广告过滤规则合并/去重 - adgh.txt
 # Total number of rules = 547754
-# Update time: 2026-08-28 18:22:10
+# Update time: 2026-08-29 11:34:44
 # Verison: 202608282212
 # https://adaway.org/hosts.txt
 # https://adguardteam.github.io/HostlistsRegistry/assets/filter_1.txt
@@ -2411,7 +2411,7 @@
 #例如"toutiao(头条)"，"MIUI xiaomi (小米)"，"reward(奖励)"。
 #在相应行的开头加个"#"号
 #提速测试
-#更新时间: 2026-08-28 18:11:16
+#更新时间: 2026-08-29 07:27:58
 #有问题可以在文件里搜索关键词
 #规则数量:12446
 $stylesheet,subdocument,third-party,xmlhttprequest,domain=canna-power.to|canna.to,badfilter
@@ -15385,11 +15385,10 @@ $stylesheet,subdocument,third-party,xmlhttprequest,domain=canna-power.to|canna.t
 100.28.104.175                 mtv.com
 100.28.104.175                 sho.com
 100.28.104.175                 spike.com
+100.51.90.123                  registry-1.docker.io
 100.52.47.112                  brightcove.com
-100.59.161.239                 registry-1.docker.io
 101.28.130.196                 cdn-qc.content.steamchina.com
 101.72.203.46                  v3.baidupcs.com
-101.72.237.46                  qdcache00.baidupcs.com
 104.154.127.247                ap-guc3.spotify.com
 104.16.46.231                  npaa.pc.netflix.net
 104.16.47.231                  npaa.pc.netflix.net
@@ -15441,35 +15440,34 @@ $stylesheet,subdocument,third-party,xmlhttprequest,domain=canna-power.to|canna.t
 104.20.28.232                  iwara.tv
 104.20.28.232                  www.iwara.tv
 104.20.43.26                   t.apkpure.net
+104.208.203.89                 client.wns.windows.com
+104.208.203.89                 skydrive.wns.windows.com
 104.21.54.91                   ifconfig.co
 104.21.60.31                   easylist.to
 104.26.2.214                   ip2location.com
 104.26.3.214                   ip2location.com
-104.69.92.243                  aod-ssl.itunes.apple.com
-104.94.66.6                    storefront.steampowered.com
+104.97.85.139                  cdn.steamcommunity.com
+104.97.85.183                  cdn.steamcommunity.com
+106.225.194.38                 v8.baidupcs.com
 106.225.194.46                 d8.baidupcs.com
+106.38.254.66                  cdn-ali.content.steamchina.com
+106.38.254.80                  cdn-ali.content.steamchina.com
+106.38.254.81                  cdn-ali.content.steamchina.com
+106.38.254.82                  cdn-ali.content.steamchina.com
+106.38.254.83                  cdn-ali.content.steamchina.com
+106.38.254.84                  cdn-ali.content.steamchina.com
+106.38.254.85                  cdn-ali.content.steamchina.com
+106.38.254.86                  cdn-ali.content.steamchina.com
 106.42.232.104                 dl.steam.clngaa.com
 106.42.232.174                 dl.steam.clngaa.com
-107.122.31.31                  epdg.epc.att.net
+107.122.31.111                 epdg.epc.att.net
 107.20.175.192                 netflix.net
 107.20.175.192                 nflxvideo.net
 107.20.175.192                 www.nflxvideo.net
-108.138.159.104                synostatic.synology.com
-108.138.159.31                 synostatic.synology.com
-108.138.159.33                 synostatic.synology.com
-108.138.159.88                 synostatic.synology.com
-108.156.211.108                global.download.synology.com
-108.156.211.21                 global.download.synology.com
-108.156.211.23                 global.download.synology.com
-108.156.211.83                 global.download.synology.com
-108.156.224.27                 kb.synology.com
-108.156.224.33                 kb.synology.com
-108.156.224.51                 kb.synology.com
-108.156.224.6                  kb.synology.com
-108.156.245.38                 amazonvideo.com
-108.156.245.57                 amazonvideo.com
-108.156.245.63                 amazonvideo.com
-108.156.245.80                 amazonvideo.com
+108.138.64.100                 sdk-common-static.hoyoverse.com
+108.138.64.125                 sdk-common-static.hoyoverse.com
+108.138.64.49                  sdk-common-static.hoyoverse.com
+108.138.64.60                  sdk-common-static.hoyoverse.com
 110.242.68.19                  bdcu12.baidupcs.com
 110.242.68.31                  bj.poms.baidupcs.com
 110.242.68.31                  bjall02.baidupcs.com
@@ -15487,15 +15485,17 @@ $stylesheet,subdocument,third-party,xmlhttprequest,domain=canna-power.to|canna.t
 110.43.121.13 hugeota.d.miui.com
 110.43.121.249 bigota.d.miui.com
 110.43.121.249 hugeota.d.miui.com
-111.170.165.38                 v8.baidupcs.com
+111.170.165.46                 d8.baidupcs.com
 111.170.166.46                 nbcache00.baidupcs.com
-111.170.25.38                  v8.baidupcs.com
+111.170.23.46                  d8.baidupcs.com
+111.170.25.46                  d8.baidupcs.com
 111.20.4.20                    xacm07.baidupcs.com
 111.206.208.91                 bjall.baidupcs.com
 111.206.208.91                 bjall06.baidupcs.com
 111.206.208.91                 bjall07.baidupcs.com
 111.206.223.197                bjall01.baidupcs.com
-111.225.213.46                 d8.baidupcs.com
+111.225.213.46                 d11.baidupcs.com
+111.225.213.46                 d9.baidupcs.com
 111.63.96.11                   bj.poms.baidupcs.com
 111.63.96.11                   bjall02.baidupcs.com
 111.63.96.15                   bdcm01.baidupcs.com
@@ -15532,8 +15532,8 @@ $stylesheet,subdocument,third-party,xmlhttprequest,domain=canna-power.to|canna.t
 113.133.190.2                  testpoms.baidupcs.com
 113.133.190.4                  yqct01.baidupcs.com
 113.133.190.5                  yqct02.baidupcs.com
-113.142.212.38                 v8.baidupcs.com
-113.142.212.46                 d9.baidupcs.com
+113.142.207.46                 d8.baidupcs.com
+113.142.212.46                 d8.baidupcs.com
 113.200.1.1                    yqall02.baidupcs.com
 113.200.1.14                   yqall07.baidupcs.com
 113.200.1.2                    xacu02.baidupcs.com
@@ -15551,7 +15551,6 @@ $stylesheet,subdocument,third-party,xmlhttprequest,domain=canna-power.to|canna.t
 113.200.143.7                  xacu07.baidupcs.com
 113.200.143.9                  xacu12.baidupcs.com
 113.200.2.1                    yqall01.baidupcs.com
-113.219.201.38                 v8.baidupcs.com
 113.24.226.111                 yqall03.baidupcs.com
 113.24.226.119                 yqall12.baidupcs.com
 113.24.226.12                  yqct12.baidupcs.com
@@ -15573,11 +15572,6 @@ $stylesheet,subdocument,third-party,xmlhttprequest,domain=canna-power.to|canna.t
 116.179.34.3                   allall12.baidupcs.com
 116.179.34.71                  allall03.baidupcs.com
 116.179.34.73                  nj.t.bcsp2p.baidu.com
-117.21.233.46                  d9.baidupcs.com
-117.24.165.38                  v8.baidupcs.com
-117.24.165.46                  d9.baidupcs.com
-117.33.185.38                  v8.baidupcs.com
-117.33.185.46                  d9.baidupcs.com
 117.34.84.12                   allall02.baidupcs.com
 117.34.84.21                   xact01.baidupcs.com
 117.34.84.3                    xact02.baidupcs.com
@@ -15587,57 +15581,56 @@ $stylesheet,subdocument,third-party,xmlhttprequest,domain=canna-power.to|canna.t
 117.34.84.75                   xact12.baidupcs.com
 117.34.84.8                    allall01.baidupcs.com
 117.34.84.8                    yqct07.baidupcs.com
-117.40.144.46                  d9.baidupcs.com
-117.86.166.38                  v8.baidupcs.com
-118.193.97.128                 cndl.synology.cn
-118.193.97.128                 find.synology.cn
-118.193.97.130                 kb.synology.cn
-118.193.97.130                 www.synology.cn
-118.193.97.131                 archive.synology.cn
-118.193.97.136                 kb.synology.cn
-118.193.97.136                 www.synology.cn
-118.193.97.138                 cndl.synology.cn
-118.193.97.139                 kb.synology.cn
-118.193.97.142                 www.synology.cn
-118.193.97.143                 archive.synology.cn
-118.193.97.143                 www.synology.cn
-118.193.97.145                 archive.synology.cn
-118.193.97.145                 find.synology.cn
-118.193.97.146                 cndl.synology.cn
-118.193.97.150                 archive.synology.cn
-118.193.97.155                 find.synology.cn
-118.193.97.157                 cndl.synology.cn
-118.193.97.157                 kb.synology.cn
-118.193.97.159                 find.synology.cn
+118.193.97.196                 www.synology.cn
+118.193.97.202                 account.synology.cn
+118.193.97.204                 www.synology.cn
+118.193.97.208                 account.synology.cn
+118.193.97.209                 account.synology.cn
+118.193.97.209                 cndl.synology.cn
+118.193.97.209                 www.synology.cn
+118.193.97.212                 www.synology.cn
+118.193.97.216                 account.synology.cn
+118.193.97.218                 cndl.synology.cn
+118.193.97.220                 cndl.synology.cn
+118.193.97.222                 cndl.synology.cn
 118.212.232.46                 v3.baidupcs.com
-119.167.237.46                 d8.baidupcs.com
-119.188.212.46                 qdcache00.baidupcs.com
+119.167.237.46                 d11.baidupcs.com
+119.167.237.46                 d9.baidupcs.com
 119.249.103.71                 bdcu01.baidupcs.com
 119.249.50.46                  qdcache00.baidupcs.com
-119.41.82.46                   d9.baidupcs.com
 12.0.1.28                      route-server.ip.att.net
-120.220.168.46                 d11.baidupcs.com
 120.233.47.193                 d10.baidupcs.com
-120.39.218.46                  d11.baidupcs.com
-120.41.32.46                   d11.baidupcs.com
-120.52.12.65                   account.synology.cn
-120.52.12.72                   account.synology.cn
-120.52.12.73                   account.synology.cn
-120.52.12.95                   account.synology.cn
-121.14.9.46                    d11.baidupcs.com
+120.52.12.66                   find.synology.cn
+120.52.12.66                   kb.synology.cn
+120.52.12.67                   kb.synology.cn
+120.52.12.70                   archive.synology.cn
+120.52.12.73                   archive.synology.cn
+120.52.12.76                   kb.synology.cn
+120.52.12.77                   archive.synology.cn
+120.52.12.83                   archive.synology.cn
+120.52.12.83                   kb.synology.cn
+120.52.12.85                   find.synology.cn
+120.52.12.86                   find.synology.cn
+120.52.12.92                   find.synology.cn
+121.14.9.38                    v8.baidupcs.com
 122.205.111.46                 v3.baidupcs.com
-122.225.32.46                  d9.baidupcs.com
-122.228.115.46                 nbcache00.baidupcs.com
-123.182.179.46                 d9.baidupcs.com
+123.184.145.167                xz.pphimalayanrt.com
+123.184.145.168                xz.pphimalayanrt.com
+123.184.145.169                xz.pphimalayanrt.com
+123.184.145.170                xz.pphimalayanrt.com
+123.184.145.171                xz.pphimalayanrt.com
+123.184.145.172                xz.pphimalayanrt.com
+123.184.145.173                xz.pphimalayanrt.com
+123.184.145.174                xz.pphimalayanrt.com
 123.235.30.46                  d11.baidupcs.com
-123.235.30.46                  d8.baidupcs.com
-123.244.92.46                  d9.baidupcs.com
+123.235.30.46                  d9.baidupcs.com
 123.6.13.6 bigota.d.miui.com
 123.6.13.6 hugeota.d.miui.com
 123pan.com##.adv-container-pc
 123pan.com##.banner_all_wrap
 123pan.com##.slick-slider, .slick-initialized
 124.217.186.49                 wlan.three.com.hk
+124.225.193.38                 v8.baidupcs.com
 124.237.208.161                small.cdn.baidupcs.com
 124.237.208.161                v2.baidupcs.com
 124.237.208.161                videocdn.baidupcs.com
@@ -15647,7 +15640,7 @@ $stylesheet,subdocument,third-party,xmlhttprequest,domain=canna-power.to|canna.t
 124.237.208.174                sdata.baidupcs.com
 124.237.224.1                  bdct06.baidupcs.com
 124.237.224.5                  bdct06.baidupcs.com
-124.248.74.46                  d11.baidupcs.com
+124.248.74.38                  v8.baidupcs.com
 124.91.148.46                  v3.baidupcs.com
 125.44.162.110                 broadcast.st.dl.eccdnx.com
 125.44.162.111                 broadcast.st.dl.eccdnx.com
@@ -15658,90 +15651,84 @@ $stylesheet,subdocument,third-party,xmlhttprequest,domain=canna-power.to|canna.t
 127.0.1.1 hostname
 127.0.1.2 hostname
 127.0.1.3 hostname
-13.107.139.11                  onedrive.live.com
-13.107.226.57                  www.onenote.com
-13.107.246.57                  acctcdn.msauth.net
-13.107.246.66                  logincdn.msauth.net
-13.107.253.57                  www.onenote.com
+128.85.102.70                  update.microsoft.com
+13.107.246.40                  acctcdn.msauth.net
+13.107.246.40                  logincdn.msauth.net
 13.107.42.16                   pipelines.actions.githubusercontent.com
-13.224.187.115                 media-cdn.epicgames.com
-13.224.187.28                  media-cdn.epicgames.com
-13.224.187.3                   media-cdn.epicgames.com
-13.224.187.30                  media-cdn.epicgames.com
-13.225.222.115                 hulu.jp
-13.225.222.117                 hulu.jp
-13.225.222.2                   hkrpg-sdk-os-static.hoyoverse.com
-13.225.222.23                  hkrpg-sdk-os-static.hoyoverse.com
-13.225.222.36                  hulu.jp
-13.225.222.53                  hkrpg-sdk-os-static.hoyoverse.com
-13.225.222.59                  account.synology.com
-13.225.222.62                  account.synology.com
-13.225.222.66                  hkrpg-sdk-os-static.hoyoverse.com
-13.225.222.68                  hulu.jp
-13.225.222.77                  account.synology.com
-13.225.222.8                   account.synology.com
-13.225.61.128                  d3njjcbhbojbot.cloudfront.net
-13.225.61.25                   d3njjcbhbojbot.cloudfront.net
-13.225.61.3                    d3njjcbhbojbot.cloudfront.net
-13.225.61.85                   d3njjcbhbojbot.cloudfront.net
+13.226.209.117                 sg-public-api-static.hoyoverse.com
+13.226.209.12                  sg-public-api-static.hoyoverse.com
+13.226.209.85                  sg-public-api-static.hoyoverse.com
+13.226.209.86                  sg-public-api-static.hoyoverse.com
+13.226.238.104                 webec.synology.com
+13.226.238.117                 pkgupdate7.synology.com
+13.226.238.123                 pkgupdate7.synology.com
+13.226.238.13                  webec.synology.com
+13.226.238.24                  webec.synology.com
+13.226.238.30                  webec.synology.com
+13.226.238.32                  sdk-common-api.hoyoverse.com
+13.226.238.4                   pkgupdate7.synology.com
+13.226.238.59                  sdk-common-api.hoyoverse.com
+13.226.238.68                  sdk-common-api.hoyoverse.com
+13.226.238.75                  pkgupdate7.synology.com
+13.226.238.89                  sdk-common-api.hoyoverse.com
 13.248.150.189                 go.com
+13.248.160.137                 fox.com
 130.211.198.204                disney.com
 131.107.255.255                dns.msftncsi.com
-132.196.74.18                  update.microsoft.com
-138.113.159.37                 cdn-ws.content.steamchina.com
 138.197.222.19                 notification.synology.com
 138.197.222.19                 sns.synology.com
+140.150.29.54                  cdn-ws.content.steamchina.com
 140.249.34.71                  baidupcs.com
-140.82.112.10                  codeload.github.com
-140.82.112.13                  uploads.github.com
-140.82.112.18                  github.community
-140.82.112.18                  status.github.com
-140.82.112.21                  collector.githubapp.com
+140.82.112.21                  central.github.com
+140.82.112.21                  git.io
+140.82.112.22                  collector.githubapp.com
+140.82.112.25                  alive.github.com
+140.82.112.25                  live.github.com
 140.82.112.29                  githubapp.com
 140.82.112.3                   www.github.com
 140.82.112.30                  githubapp.com
-140.82.112.9                   nodeload.github.com
-140.82.113.21                  git.io
-140.82.113.21                  viewscreen.githubusercontent.com
-140.82.113.25                  live.github.com
+140.82.113.10                  codeload.github.com
+140.82.113.13                  uploads.github.com
+140.82.113.17                  github.community
+140.82.113.22                  viewscreen.githubusercontent.com
 140.82.113.29                  githubapp.com
 140.82.113.30                  githubapp.com
-140.82.113.5                   api.github.com
-140.82.114.21                  central.github.com
-140.82.114.25                  alive.github.com
+140.82.114.18                  status.github.com
 140.82.114.29                  githubapp.com
+140.82.114.3                   gist.github.com
+140.82.114.3                   github.com
 140.82.114.3                   octocaptcha.com
 140.82.114.30                  githubapp.com
-140.82.114.4                   gist.github.com
-140.82.114.4                   github.com
-140.82.116.34                  ghcr.io
-141.207.151.233                wo.vzwwo.com
-141.207.197.233                wo.vzwwo.com
+140.82.114.33                  ghcr.io
+140.82.114.6                   api.github.com
+140.82.114.9                   nodeload.github.com
+141.207.129.233                wo.vzwwo.com
+141.207.137.233                wo.vzwwo.com
 141.95.45.88                   mikoto.iwara.tv
-142.250.100.188                alt2-mtalk.google.com
-142.250.100.188                alt2.mobile-gtalk4.l.google.com
-142.250.115.100                clientservices.googleapis.com
-142.250.115.101                clientservices.googleapis.com
-142.250.115.102                clientservices.googleapis.com
-142.250.115.113                clientservices.googleapis.com
-142.250.115.138                clientservices.googleapis.com
-142.250.115.139                clientservices.googleapis.com
-142.250.96.188                 alt4-mtalk.google.com
-142.250.96.188                 alt4.mobile-gtalk4.l.google.com
-142.251.108.100                www3.l.google.com
-142.251.108.101                www3.l.google.com
-142.251.108.102                www3.l.google.com
-142.251.108.113                www3.l.google.com
-142.251.108.138                www3.l.google.com
-142.251.108.139                www3.l.google.com
-142.251.121.95                 translate.googleapis.com
-142.251.186.110                services.googleapis.cn
-142.251.186.110                www.googleapis.cn
-142.251.186.119                play-lh.googleusercontent.com
-142.251.2.188                  mobile-gtalk.l.google.com
-142.251.2.188                  mtalk.google.com
-142.251.96.188                 alt1-mtalk.google.com
-142.251.96.188                 alt1.mobile-gtalk.l.google.com
+142.250.102.188                alt5-mtalk.google.com
+142.250.102.188                alt5.mobile-gtalk.l.google.com
+142.251.127.188                alt7-mtalk.google.com
+142.251.127.188                alt7.mobile-gtalk.l.google.com
+142.251.16.110                 services.googleapis.cn
+142.251.163.100                play-fe.googleapis.com
+142.251.163.100                translate.google.com
+142.251.163.100                www3.l.google.com
+142.251.163.101                play-fe.googleapis.com
+142.251.163.101                translate.google.com
+142.251.163.101                www3.l.google.com
+142.251.163.102                play-fe.googleapis.com
+142.251.163.102                translate.google.com
+142.251.163.102                www3.l.google.com
+142.251.163.113                play-fe.googleapis.com
+142.251.163.113                translate.google.com
+142.251.163.113                www3.l.google.com
+142.251.163.138                play-fe.googleapis.com
+142.251.163.138                translate.google.com
+142.251.163.138                www3.l.google.com
+142.251.163.139                play-fe.googleapis.com
+142.251.163.139                translate.google.com
+142.251.163.139                www3.l.google.com
+142.251.179.119                play-lh.googleusercontent.com
 143.14.203.102                 superota.d.miui.com
 143.14.203.102                 ultimateota.d.miui.com
 143.14.203.103                 superota.d.miui.com
@@ -15750,23 +15737,24 @@ $stylesheet,subdocument,third-party,xmlhttprequest,domain=canna-power.to|canna.t
 143.14.203.104                 ultimateota.d.miui.com
 143.14.203.105                 superota.d.miui.com
 143.14.203.105                 ultimateota.d.miui.com
-146.75.105.194                 github.global.ssl.fastly.net
-146.75.106.132                 deb.debian.org
-146.75.107.6                   is5-ssl.mzstatic.com
+146.75.29.194                  github.global.ssl.fastly.net
+146.75.38.172                  tlu.dl.delivery.mp.microsoft.com
 15.197.225.128                 beinsportsconnect.net
-150.138.219.46                 nbcache00.baidupcs.com
-150.138.253.46                 d11.baidupcs.com
+150.138.253.38                 v8.baidupcs.com
+150.171.109.115                www.onenote.com
 150.171.22.11                  api.onedrive.com
 150.171.22.11                  d.docs.live.net
 150.171.22.11                  docs.live.net
 150.171.22.11                  public.bn.files.1drv.com
 150.171.22.11                  public.dm.files.1drv.com
 150.171.22.11                  skyapi.onedrive.live.com
-150.171.23.11                  skydrivesync.policies.live.net
+150.171.22.11                  skydrivesync.policies.live.net
+150.171.22.17                  config.edge.skype.com
 150.171.27.10                  bing.com
 150.171.27.11                  edge.microsoft.com
 150.171.28.10                  bing.com
 150.171.28.11                  edge.microsoft.com
+150.171.43.11                  onedrive.live.com
 150.242.122.236                bjbgp06.baidupcs.com
 150.242.122.37                 bjbgp02.baidupcs.com
 150.242.123.13                 bjbgp06.baidupcs.com
@@ -15777,84 +15765,96 @@ $stylesheet,subdocument,third-party,xmlhttprequest,domain=canna-power.to|canna.t
 151.101.128.81                 open.live.bbc.co.uk
 151.101.128.81                 www.bbc.co.uk
 151.101.129.55                 hbo.com
+151.101.130.132                deb.debian.org
 151.101.131.6                  is1-ssl.mzstatic.com
 151.101.131.6                  is2-ssl.mzstatic.com
 151.101.131.6                  is3-ssl.mzstatic.com
 151.101.131.6                  is4-ssl.mzstatic.com
+151.101.131.6                  is5-ssl.mzstatic.com
 151.101.192.81                 open.live.bbc.co.uk
 151.101.192.81                 www.bbc.co.uk
 151.101.193.55                 hbo.com
+151.101.194.132                deb.debian.org
 151.101.195.6                  is1-ssl.mzstatic.com
 151.101.195.6                  is2-ssl.mzstatic.com
 151.101.195.6                  is3-ssl.mzstatic.com
 151.101.195.6                  is4-ssl.mzstatic.com
+151.101.195.6                  is5-ssl.mzstatic.com
+151.101.2.132                  deb.debian.org
 151.101.3.6                    is1-ssl.mzstatic.com
 151.101.3.6                    is2-ssl.mzstatic.com
 151.101.3.6                    is3-ssl.mzstatic.com
 151.101.3.6                    is4-ssl.mzstatic.com
+151.101.3.6                    is5-ssl.mzstatic.com
 151.101.64.81                  open.live.bbc.co.uk
 151.101.64.81                  www.bbc.co.uk
 151.101.65.55                  hbo.com
+151.101.66.132                 deb.debian.org
 151.101.67.6                   is1-ssl.mzstatic.com
 151.101.67.6                   is2-ssl.mzstatic.com
 151.101.67.6                   is3-ssl.mzstatic.com
 151.101.67.6                   is4-ssl.mzstatic.com
+151.101.67.6                   is5-ssl.mzstatic.com
 151.242.229.119                superota.d.miui.com
 151.242.229.119                ultimateota.d.miui.com
 151.242.229.120                superota.d.miui.com
 151.242.229.120                ultimateota.d.miui.com
+155.102.54.129                 sdk-os-static.hoyoverse.com
+155.102.54.130                 sdk-os-static.hoyoverse.com
+155.102.54.131                 sdk-os-static.hoyoverse.com
+155.102.54.132                 sdk-os-static.hoyoverse.com
+155.102.54.133                 sdk-os-static.hoyoverse.com
+155.102.54.134                 sdk-os-static.hoyoverse.com
+155.102.54.135                 sdk-os-static.hoyoverse.com
+155.102.54.136                 sdk-os-static.hoyoverse.com
 157.148.65.46                  d0.baidupcs.com
 157.148.65.46                  v3.baidupcs.com
+157.185.164.166                cdn-ws.content.steamchina.com
 157.255.63.46                  v3.baidupcs.com
 159.60.130.57                  sling.com
-16.15.183.112                  github-com.s3.amazonaws.com
-16.15.191.1                    github-production-user-asset-6210df.s3.amazonaws.com
-16.15.212.217                  github-cloud.s3.amazonaws.com
-16.15.213.188                  github-cloud.s3.amazonaws.com
-16.15.213.209                  github-production-repository-file-5c1aeb.s3.amazonaws.com
-16.15.214.18                   github-com.s3.amazonaws.com
-16.15.228.158                  github-production-user-asset-6210df.s3.amazonaws.com
-16.15.229.9                    github-production-repository-file-5c1aeb.s3.amazonaws.com
-16.15.236.110                  github-production-user-asset-6210df.s3.amazonaws.com
-16.15.236.19                   github-production-repository-file-5c1aeb.s3.amazonaws.com
-16.15.238.33                   github-production-release-asset-2e65be.s3.amazonaws.com
-16.15.244.205                  github-com.s3.amazonaws.com
-16.15.244.96                   github-production-user-asset-6210df.s3.amazonaws.com
-16.15.247.152                  github-production-user-asset-6210df.s3.amazonaws.com
-16.15.252.230                  github-production-release-asset-2e65be.s3.amazonaws.com
-16.15.252.44                   github-production-release-asset-2e65be.s3.amazonaws.com
-16.15.255.105                  github-production-user-asset-6210df.s3.amazonaws.com
-16.15.255.209                  github-cloud.s3.amazonaws.com
-16.15.43.46                    s3.us-west-2.amazonaws.com
-16.15.44.50                    s3.us-west-2.amazonaws.com
-16.182.33.137                  github-production-repository-file-5c1aeb.s3.amazonaws.com
-16.182.64.209                  github-production-repository-file-5c1aeb.s3.amazonaws.com
-16.182.72.105                  github-com.s3.amazonaws.com
-16.182.75.49                   github-production-user-asset-6210df.s3.amazonaws.com
-16.182.96.81                   github-production-repository-file-5c1aeb.s3.amazonaws.com
+16.12.98.48                    s3.us-west-2.amazonaws.com
+16.15.183.215                  github-production-user-asset-6210df.s3.amazonaws.com
+16.15.183.70                   github-production-release-asset-2e65be.s3.amazonaws.com
+16.15.183.97                   github-production-user-asset-6210df.s3.amazonaws.com
+16.15.199.49                   github-production-user-asset-6210df.s3.amazonaws.com
+16.15.207.73                   github-cloud.s3.amazonaws.com
+16.15.212.161                  github-com.s3.amazonaws.com
+16.15.212.170                  github-production-user-asset-6210df.s3.amazonaws.com
+16.15.214.133                  github-production-repository-file-5c1aeb.s3.amazonaws.com
+16.15.223.83                   github-com.s3.amazonaws.com
+16.15.228.35                   github-production-repository-file-5c1aeb.s3.amazonaws.com
+16.15.236.51                   github-production-user-asset-6210df.s3.amazonaws.com
+16.15.237.88                   github-production-repository-file-5c1aeb.s3.amazonaws.com
+16.15.238.198                  github-production-repository-file-5c1aeb.s3.amazonaws.com
+16.15.244.250                  github-cloud.s3.amazonaws.com
+16.15.246.33                   github-production-release-asset-2e65be.s3.amazonaws.com
+16.15.252.206                  github-cloud.s3.amazonaws.com
+16.15.253.235                  github-production-release-asset-2e65be.s3.amazonaws.com
+16.15.255.220                  github-com.s3.amazonaws.com
+16.15.255.80                   github-com.s3.amazonaws.com
+16.15.45.185                   s3.us-west-2.amazonaws.com
+16.182.100.209                 github-cloud.s3.amazonaws.com
+16.182.100.73                  github-com.s3.amazonaws.com
 162.159.129.11                 ir.netflix.net
 162.159.130.11                 ir.netflix.net
 162.159.134.22                 maxmind.com
 162.159.135.22                 maxmind.com
 163.172.40.145                 aku.iwara.tv
 163.172.44.153                 miki.iwara.tv
-163.181.60.224                 sdk-os-static.hoyoverse.com
-166.137.120.1                  mmsc.mobile.att.net
+166.137.91.129                 mmsc.mobile.att.net
 167.99.168.209                 notification.synology.com
 167.99.168.209                 sns.synology.com
-17.156.96.16                   store-032.blobstore.apple.com
-17.156.96.17                   store-032.blobstore.apple.com
-17.156.96.18                   store-032.blobstore.apple.com
-17.156.96.19                   store-032.blobstore.apple.com
-17.156.96.32                   store-033.blobstore.apple.com
-17.156.96.33                   store-033.blobstore.apple.com
-17.156.96.34                   store-033.blobstore.apple.com
-17.156.96.35                   store-033.blobstore.apple.com
+17.156.104.16                  store-033.blobstore.apple.com
+17.156.104.17                  store-033.blobstore.apple.com
+17.156.104.18                  store-033.blobstore.apple.com
+17.156.104.19                  store-033.blobstore.apple.com
+17.156.104.24                  store-032.blobstore.apple.com
+17.156.104.25                  store-032.blobstore.apple.com
+17.156.104.26                  store-032.blobstore.apple.com
+17.156.104.27                  store-032.blobstore.apple.com
 17.179.252.2                   gsa.apple.com
-17.253.127.131                 aod.itunes.apple.com
-17.253.127.133                 audio.itunes.apple.com
-17.253.127.134                 aod.itunes.apple.com
-17.253.127.150                 audio.itunes.apple.com
+17.253.21.133                  audio.itunes.apple.com
+17.253.21.134                  audio.itunes.apple.com
 171.105.185.65                 st.dl.bscstorage.net
 171.105.185.65                 store.st.dl.eccdnx.com
 171.105.185.66                 st.dl.bscstorage.net
@@ -15863,9 +15863,11 @@ $stylesheet,subdocument,third-party,xmlhttprequest,domain=canna-power.to|canna.t
 171.105.185.67                 store.st.dl.eccdnx.com
 171.105.185.68                 st.dl.bscstorage.net
 171.105.185.68                 store.st.dl.eccdnx.com
-171.214.23.46                  d8.baidupcs.com
+171.214.23.46                  d11.baidupcs.com
+171.214.23.46                  d9.baidupcs.com
+171.43.166.38                  v8.baidupcs.com
 171.43.166.46                  d11.baidupcs.com
-171.43.166.46                  d8.baidupcs.com
+171.43.166.46                  d9.baidupcs.com
 17173.com###vjs-ad-on-pause
 172.217.112.4                  content-autofill.googleapis.com
 172.217.112.4                  firebaseinstallations.googleapis.com
@@ -15931,12 +15933,20 @@ $stylesheet,subdocument,third-party,xmlhttprequest,domain=canna-power.to|canna.t
 172.217.119.4                  playstoregatewayadapter-pa.googleapis.com
 172.217.119.4                  prod-lt-playstoregatewayadapter-pa.googleapis.com
 172.217.119.4                  translate-pa.googleapis.com
-172.217.72.110                 connectivitycheck.gstatic.cn
-172.253.132.188                alt5-mtalk.google.com
-172.253.132.188                alt5.mobile-gtalk.l.google.com
-172.253.135.110                googlecn-lopri.l.google.com
-172.253.149.188                alt3-mtalk.google.com
-172.253.149.188                alt3.mobile-gtalk.l.google.com
+172.253.116.188                alt2-mtalk.google.com
+172.253.116.188                alt2.mobile-gtalk4.l.google.com
+172.253.122.110                googlecn-lopri.l.google.com
+172.253.148.188                alt8-mtalk.google.com
+172.253.148.188                alt8.mobile-gtalk4.l.google.com
+172.253.157.188                alt4-mtalk.google.com
+172.253.157.188                alt4.mobile-gtalk4.l.google.com
+172.253.62.188                 mobile-gtalk.l.google.com
+172.253.63.100                 clientservices.googleapis.com
+172.253.63.101                 clientservices.googleapis.com
+172.253.63.102                 clientservices.googleapis.com
+172.253.63.113                 clientservices.googleapis.com
+172.253.63.138                 clientservices.googleapis.com
+172.253.63.139                 clientservices.googleapis.com
 172.64.144.78                  auth.docker.io
 172.64.148.245                 chef.gitlab.com
 172.64.148.245                 customers.gitlab.com
@@ -15958,73 +15968,43 @@ $stylesheet,subdocument,third-party,xmlhttprequest,domain=canna-power.to|canna.t
 172.67.168.106                 ifconfig.co
 172.67.191.28                  easylist.to
 172.67.71.137                  ip2location.com
-173.194.114.188                alt8-mtalk.google.com
-173.194.114.188                alt8.mobile-gtalk4.l.google.com
-173.194.208.100                play-fe.googleapis.com
-173.194.208.101                play-fe.googleapis.com
-173.194.208.102                play-fe.googleapis.com
-173.194.208.113                play-fe.googleapis.com
-173.194.208.138                play-fe.googleapis.com
-173.194.208.139                play-fe.googleapis.com
-173.223.0.227                  steamcommunity.com
+173.194.45.110                 www.googleapis.cn
+173.222.168.12                 titlehub.xboxlive.com
+175.12.19.38                   v8.baidupcs.com
+175.12.90.38                   v8.baidupcs.com
 175.12.90.46                   d11.baidupcs.com
-175.12.90.46                   d8.baidupcs.com
-18.154.219.113                 webec.synology.com
-18.154.219.127                 coursera.org
-18.154.219.2                   coursera.org
-18.154.219.30                  coursera.org
-18.154.219.30                  webec.synology.com
-18.154.219.62                  webec.synology.com
-18.154.219.75                  coursera.org
-18.154.219.77                  webec.synology.com
-18.154.253.18                  pkgupdate7.synology.com
-18.154.253.28                  pkgupdate7.synology.com
-18.154.253.32                  pkgupdate7.synology.com
-18.154.253.55                  pkgupdate7.synology.com
+175.12.90.46                   d9.baidupcs.com
+18.154.227.111                 download.epicgames.com
+18.154.227.32                  download.epicgames.com
+18.154.227.80                  download.epicgames.com
+18.154.227.87                  download.epicgames.com
 18.155.181.33                  crackle.com
-18.161.170.19                  sg-public-api-static.hoyoverse.com
-18.161.170.34                  sg-public-api-static.hoyoverse.com
-18.161.170.41                  sg-public-api-static.hoyoverse.com
-18.161.170.89                  sg-public-api-static.hoyoverse.com
+18.160.18.119                  synostatic.synology.com
+18.160.18.26                   synostatic.synology.com
+18.160.18.51                   synostatic.synology.com
+18.160.18.93                   synostatic.synology.com
+18.160.41.10                   find.synology.com
+18.160.41.128                  find.synology.com
+18.160.41.52                   find.synology.com
+18.160.41.87                   find.synology.com
+18.165.83.30                   epic-social-social-modules-prod.ol.epicgames.com
+18.165.83.38                   epic-social-social-modules-prod.ol.epicgames.com
+18.165.83.84                   epic-social-social-modules-prod.ol.epicgames.com
+18.165.83.85                   epic-social-social-modules-prod.ol.epicgames.com
 18.207.84.236                  casting.prod.netflix.net
 18.215.132.91                  docker.io
 18.215.204.171                 tracking.epicgames.com
 18.236.7.30                    netflix.net
 18.236.7.30                    nflxvideo.net
-18.238.132.112                 abtest-api-data-sg.hoyoverse.com
-18.238.132.24                  abtest-api-data-sg.hoyoverse.com
-18.238.132.33                  abtest-api-data-sg.hoyoverse.com
-18.238.132.9                   abtest-api-data-sg.hoyoverse.com
-18.238.152.120                 sdk.hoyoverse.com
-18.238.152.122                 sdk.hoyoverse.com
-18.238.152.2                   sg-hkrpg-api-static.hoyoverse.com
-18.238.152.38                  sdk.hoyoverse.com
-18.238.152.41                  cdn.unrealengine.com
-18.238.152.43                  sg-hkrpg-api-static.hoyoverse.com
-18.238.152.52                  cdn.unrealengine.com
-18.238.152.55                  sg-hkrpg-api-static.hoyoverse.com
-18.238.152.6                   cdn.unrealengine.com
-18.238.152.61                  cdn.unrealengine.com
-18.238.152.68                  sdk.hoyoverse.com
-18.238.152.9                   sg-hkrpg-api-static.hoyoverse.com
-18.238.171.100                 beinsportsconnect.tv
-18.238.171.123                 www.synology.com
-18.238.171.14                  beinsportsconnect.tv
-18.238.171.2                   beinsportsconnect.tv
-18.238.171.20                  beinsportsconnect.tv
-18.238.171.35                  www.synology.com
-18.238.171.71                  www.synology.com
-18.238.171.90                  www.synology.com
-18.245.113.24                  epic-social-social-modules-prod.ol.epicgames.com
-18.245.113.25                  epic-social-social-modules-prod.ol.epicgames.com
-18.245.113.37                  epic-social-social-modules-prod.ol.epicgames.com
-18.245.113.8                   epic-social-social-modules-prod.ol.epicgames.com
-18.245.124.60                  hkrpg-sdk-os.hoyoverse.com
-18.245.124.69                  hkrpg-sdk-os.hoyoverse.com
-18.245.124.93                  hkrpg-sdk-os.hoyoverse.com
-18.245.124.97                  hkrpg-sdk-os.hoyoverse.com
+18.67.65.10                    sdk.hoyoverse.com
+18.67.65.119                   sdk.hoyoverse.com
+18.67.65.120                   kb.synology.com
+18.67.65.36                    sdk.hoyoverse.com
+18.67.65.57                    kb.synology.com
+18.67.65.62                    sdk.hoyoverse.com
+18.67.65.8                     kb.synology.com
+18.67.65.82                    kb.synology.com
 180.219.134.18                 epdg.epc.mnc006.mcc454.pub.3gppnetwork.org
-180.97.198.46                  d11.baidupcs.com
 182.61.128.173                 issuecdn.baidupcs.com
 182.61.200.179                 issuepcdn.baidupcs.com
 182.61.200.179                 netdisk-pan.baidupcs.com
@@ -16037,20 +16017,11 @@ $stylesheet,subdocument,third-party,xmlhttprequest,domain=canna-power.to|canna.t
 183.60.227.38                  v8.baidupcs.com
 183.60.227.46                  cdn.baidupcs.com
 183.60.227.46                  d1.baidupcs.com
+183.60.227.46                  d11.baidupcs.com
 183.60.227.46                  d6.baidupcs.com
-183.60.227.46                  d8.baidupcs.com
 183.60.227.46                  d9.baidupcs.com
+184.192.139.247                registry-1.docker.io
 184.192.149.194                brightcove.com
-184.24.48.182                  api.onedrive.live.com
-184.29.110.64                  cdn.onenote.net
-184.29.110.9                   gameclipscontent-d2009.xboxlive.com
-184.29.110.9                   images-eds-ssl.xboxlive.com
-184.29.110.9                   titlehub.xboxlive.com
-184.29.110.9                   xnotify.xboxlive.com
-184.29.111.173                 cdn1.unrealengine.com
-184.29.111.173                 cdn2.unrealengine.com
-184.29.36.172                  store.steampowered.com
-184.29.91.130                  southpark.cc.com
 185.199.108.133                avatars.githubusercontent.com
 185.199.108.133                avatars0.githubusercontent.com
 185.199.108.133                avatars1.githubusercontent.com
@@ -16198,54 +16169,62 @@ $stylesheet,subdocument,third-party,xmlhttprequest,domain=canna-power.to|canna.t
 18comic.org,18comic.vip,jmcomic1.win#@?#:-abp-has(> script[src*=".realsrv.com"])
 1905.com##.pauseInfoWrap:remove()
 192.0.66.2                     github.blog
-192.178.131.188                alt7-mtalk.google.com
-192.178.131.188                alt7.mobile-gtalk.l.google.com
-192.178.142.100                translate.google.com
-192.178.142.101                translate.google.com
-192.178.142.102                translate.google.com
-192.178.142.113                translate.google.com
-192.178.142.138                translate.google.com
-192.178.142.139                translate.google.com
+192.178.155.110                connectivitycheck.gstatic.cn
+192.178.155.188                mtalk.google.com
+192.178.155.95                 translate.googleapis.com
+192.178.213.188                alt6-mtalk.google.com
+192.178.213.188                alt6.mobile-gtalk4.l.google.com
+192.178.223.188                alt3-mtalk.google.com
+192.178.223.188                alt3.mobile-gtalk.l.google.com
+192.178.234.188                alt1-mtalk.google.com
+192.178.234.188                alt1.mobile-gtalk.l.google.com
 195.140.195.140                teredo.trex.fi
 198.202.211.1                  uplynk.com
 199.116.164.229                pandora.com
 199.232.192.193                i.imgur.com
 199.232.196.193                i.imgur.com
 199.232.210.133                abema.tv
-199.232.210.172                msedgeextensions.sf.tlu.dl.delivery.mp.microsoft.com
 199.232.210.248                audio-fa.scdn.co
 199.232.210.248                dailymix-images.scdn.co
 199.232.210.248                download.scdn.co
 199.232.210.248                newjams-images.scdn.co
 199.232.214.133                abema.tv
-199.232.214.172                msedgeextensions.sf.tlu.dl.delivery.mp.microsoft.com
 199.232.214.248                audio-fa.scdn.co
 199.232.214.248                dailymix-images.scdn.co
 199.232.214.248                download.scdn.co
 199.232.214.248                newjams-images.scdn.co
 199.46.35.120                  rta.xboxlive.com
-2.20.178.175                   media.steampowered.com
-2.20.178.179                   media.steampowered.com
+2.18.67.12                     dl.delivery.mp.microsoft.com
+2.18.67.12                     hugeota.d.miui.com
+2.18.67.17                     audio-akp-quic-spotify-com.akamaized.net
+2.18.67.17                     msedgeextensions.sf.tlu.dl.delivery.mp.microsoft.com
+2.18.67.198                    dl.delivery.mp.microsoft.com
+2.18.67.200                    assets1.xboxlive.cn
+2.18.67.200                    assets2.xboxlive.cn
+2.18.67.206                    i.scdn.co
+2.18.67.206                    thisis-images.scdn.co
+2.18.67.218                    assets1.xboxlive.cn
+2.18.67.218                    assets2.xboxlive.cn
+2.18.67.22                     assets2.xboxlive.cn
+2.18.67.25                     audio-ak-spotify-com.akamaized.net
+2.18.67.25                     audio4-ak-spotify-com.akamaized.net
+2.18.67.77                     heads4-ak-spotify-com.akamaized.net
+2.18.67.88                     heads4-ak-spotify-com.akamaized.net
+2.23.136.4                     storefront.steampowered.com
 20.112.250.133                 outlook.microsoft.com
 20.112.250.133                 store.microsoft.com
 20.112.250.133                 xboxlive.com
-20.135.4.163                   skyapi.live.net
-20.190.151.131                 login.live.com
-20.190.151.133                 login.live.com
-20.190.151.134                 login.live.com
-20.190.151.67                  login.live.com
-20.190.151.7                   login.live.com
-20.190.151.70                  login.live.com
-20.190.151.8                   login.live.com
-20.190.151.9                   login.live.com
+20.135.4.173                   skyapi.live.net
 20.190.190.129                 account.live.com
+20.190.190.129                 login.live.com
+20.190.190.130                 account.live.com
 20.190.190.131                 account.live.com
-20.190.190.132                 account.live.com
-20.190.190.193                 account.live.com
+20.190.190.131                 login.live.com
+20.190.190.194                 login.live.com
+20.190.190.195                 account.live.com
+20.190.190.195                 login.live.com
 20.190.190.196                 account.live.com
-20.201.200.54                  activityhub.xboxlive.com
-20.201.200.76                  win1711.ipv6.microsoft.com
-20.201.205.4                   win1807.ipv6.microsoft.com
+20.190.190.196                 login.live.com
 20.201.220.14                  win10.ipv6.microsoft.com
 20.201.220.14                  win1710.ipv6.microsoft.com
 20.231.239.246                 outlook.microsoft.com
@@ -16254,9 +16233,6 @@ $stylesheet,subdocument,third-party,xmlhttprequest,domain=canna-power.to|canna.t
 20.236.44.162                  outlook.microsoft.com
 20.236.44.162                  store.microsoft.com
 20.236.44.162                  xboxlive.com
-20.245.250.193                 storage.live.com
-20.59.87.226                   client.wns.windows.com
-20.59.87.226                   skydrive.wns.windows.com
 20.70.246.20                   outlook.microsoft.com
 20.70.246.20                   store.microsoft.com
 20.70.246.20                   xboxlive.com
@@ -16328,8 +16304,8 @@ $stylesheet,subdocument,third-party,xmlhttprequest,domain=canna-power.to|canna.t
 2001:4860:4847:400::           playstoregatewayadapter-pa.googleapis.com
 2001:4860:4847:400::           prod-lt-playstoregatewayadapter-pa.googleapis.com
 2001:4860:4847:400::           translate-pa.googleapis.com
-2001:4888:8039:10:308:20f:0:100 wo.vzwwo.com
-2001:4888:8061:10:604:20f:0:100 wo.vzwwo.com
+2001:4888:8010:10:132:20f:0:100 wo.vzwwo.com
+2001:4888:8015:10:194:20f:0:100 wo.vzwwo.com
 2023.allthingsopen.org#@#a[href*=".com?aff="]
 203.145.76.237                 mobile.three.com.hk
 203.75.214.5                   hinet.net
@@ -16345,10 +16321,10 @@ $stylesheet,subdocument,third-party,xmlhttprequest,domain=canna-power.to|canna.t
 208.103.161.2                  www.notion.so
 208.103.161.32                 notion.site
 208.103.161.33                 notion.site
-208.54.140.1                   crl.geo.t-mobile.com
-208.54.26.163                  epdg.epc.geo.mnc260.mcc310.pub.3gppnetwork.org
-208.54.40.3                    ss.epdg.epc.mnc260.mcc310.pub.3gppnetwork.org
-208.54.44.131                  epdg.epc.mnc260.mcc310.pub.3gppnetwork.org
+208.54.110.9                   crl.geo.t-mobile.com
+208.54.2.99                    ss.epdg.epc.mnc260.mcc310.pub.3gppnetwork.org
+208.54.35.131                  epdg.epc.mnc260.mcc310.pub.3gppnetwork.org
+208.54.88.35                   epdg.epc.geo.mnc260.mcc310.pub.3gppnetwork.org
 209.148.157.48                 epdg.epc.mnc720.mcc302.pub.3gppnetwork.org
 210.225.196.89                 teredo.ginzado.ne.jp
 211.23.38.120                  router.synology.com
@@ -16359,138 +16335,121 @@ $stylesheet,subdocument,third-party,xmlhttprequest,domain=canna-power.to|canna.t
 216.198.53.11                  support.gitlab.com
 216.198.54.11                  federal-support.gitlab.com
 216.198.54.11                  support.gitlab.com
+216.220.210.2                  win1711.ipv6.microsoft.com
+216.220.210.2                  win1807.ipv6.microsoft.com
 217.17.192.217                 teredo.iks-jena.de
 218.24.84.228                  cdn-qc.content.steamchina.com
 218.24.84.231                  cdn-qc.content.steamchina.com
 218.61.17.46                   v3.baidupcs.com
+218.94.231.46                  d11.baidupcs.com
 219.152.87.114                 dl.steam.clngaa.com
 219.152.87.117                 dl.steam.clngaa.com
 220.181.107.243                bj.baidupcs.com
 220.195.132.46                 v3.baidupcs.com
-23.194.131.25                  www.msftncsi.com
-23.194.131.75                  www.msftncsi.com
-23.196.4.134                   heads4-ak-spotify-com.akamaized.net
-23.196.4.140                   heads4-ak-spotify-com.akamaized.net
-23.201.96.2                    cdn.store.steampowered.com
-23.201.96.2                    store.akamai.steamstatic.com
-23.201.96.28                   cdn.steamcommunity.com
-23.201.96.38                   cdn.akamai.steamstatic.com
-23.201.96.51                   cdn.steamcommunity.com
-23.201.96.53                   cdn.akamai.steamstatic.com
-23.201.96.63                   cdn.store.steampowered.com
-23.201.96.63                   store.akamai.steamstatic.com
+23.15.3.132                    audio-ak-spotify-com.akamaized.net
+23.15.3.132                    audio4-ak-spotify-com.akamaized.net
+23.15.3.139                    assets2.xboxlive.cn
+23.15.3.140                    msedgeextensions.sf.tlu.dl.delivery.mp.microsoft.com
+23.15.3.143                    audio-akp-quic-spotify-com.akamaized.net
+23.15.3.152                    i.scdn.co
+23.15.3.152                    thisis-images.scdn.co
+23.15.3.196                    assets1.xboxlive.cn
+23.15.3.200                    assets1.xboxlive.cn
+23.15.3.205                    hugeota.d.miui.com
+23.20.232.38                   registry-1.docker.io
 23.202.34.138 bigota.d.miui.com
 23.202.34.138 hugeota.d.miui.com
-23.204.167.126                 help.steampowered.com
-23.204.175.81                  store-site-backend-static.ak.epicgames.com
-23.205.110.13                  images-eds.xboxlive.com
-23.205.110.55                  images-eds.xboxlive.com
-23.212.185.4                   assets2.xboxlive.cn
-23.212.185.43                  audio-ak-spotify-com.akamaized.net
-23.212.185.5                   assets2.xboxlive.cn
-23.212.185.5                   dl.delivery.mp.microsoft.com
-23.212.185.6                   assets2.xboxlive.cn
-23.212.185.6                   audio-ak-spotify-com.akamaized.net
-23.212.185.7                   assets2.xboxlive.cn
-23.212.185.8                   assets2.xboxlive.cn
-23.213.232.100                 seeded-session-images.scdn.co
-23.213.232.102                 seeded-session-images.scdn.co
-23.213.232.104                 seeded-session-images.scdn.co
-23.213.232.107                 seeded-session-images.scdn.co
-23.213.232.109                 seeded-session-images.scdn.co
-23.213.232.109                 thisis-images.scdn.co
-23.213.232.133                 seeded-session-images.scdn.co
-23.213.232.133                 thisis-images.scdn.co
-23.213.232.138                 seeded-session-images.scdn.co
-23.213.232.142                 seeded-session-images.scdn.co
-23.213.232.142                 thisis-images.scdn.co
-23.213.232.167                 seeded-session-images.scdn.co
-23.213.232.167                 thisis-images.scdn.co
-23.213.232.168                 oneclient.sfx.ms
-23.213.232.168                 thisis-images.scdn.co
-23.213.232.170                 thisis-images.scdn.co
-23.213.232.173                 dl.delivery.mp.microsoft.com
-23.213.232.174                 oneclient.sfx.ms
-23.213.232.177                 oneclient.sfx.ms
-23.213.232.231                 assets2.xboxlive.cn
-23.213.232.233                 thisis-images.scdn.co
-23.213.232.235                 assets2.xboxlive.cn
-23.213.232.236                 assets2.xboxlive.cn
-23.213.232.238                 assets2.xboxlive.cn
-23.213.232.239                 thisis-images.scdn.co
-23.213.232.240                 thisis-images.scdn.co
-23.213.232.75                  oneclient.sfx.ms
-23.215.55.132                  community.akamai.steamstatic.com
-23.215.55.132                  steamcommunity-a.akamaihd.net
-23.215.55.143                  community.akamai.steamstatic.com
-23.215.55.143                  steamcommunity-a.akamaihd.net
-23.215.55.218                  epicgames-download1.akamaized.net
-23.215.55.224                  epicgames-download1.akamaized.net
-23.219.87.104                  assets1.xboxlive.cn
-23.219.87.106                  audio4-ak-spotify-com.akamaized.net
-23.219.87.112                  assets1.xboxlive.cn
-23.219.87.49                   audio-akp-quic-spotify-com.akamaized.net
-23.219.87.6                    audio-akp-quic-spotify-com.akamaized.net
-23.219.87.6                    charts-images.scdn.co
-23.219.87.6                    misc.scdn.co
-23.219.87.68                   audio4-ak-spotify-com.akamaized.net
-23.219.87.76                   assets1.xboxlive.cn
-23.219.87.77                   assets1.xboxlive.cn
-23.219.91.10                   bigota.d.miui.com
-23.219.91.20                   tlu.dl.delivery.mp.microsoft.com
-23.220.161.13                  nbc.com
-23.220.161.69                  vudu.com
-23.220.161.7                   nbc.com
-23.220.161.75                  hulu.com
-23.220.161.78                  hulu.com
-23.220.161.81                  hulu.com
-23.220.161.85                  vudu.com
-23.220.161.87                  hulu.com
-23.220.162.137                 easylist-downloads.adblockplus.org
-23.220.162.140                 easylist-downloads.adblockplus.org
-23.221.22.74                   api.steampowered.com
-23.221.22.75                   api.steampowered.com
-23.221.22.82                   api.steampowered.com
-23.221.22.83                   api.steampowered.com
-23.221.22.84                   api.steampowered.com
-23.221.22.85                   api.steampowered.com
-23.222.241.43                  crl.t-mobile.com
-23.222.241.45                  crl.t-mobile.com
+23.204.32.185                  api.onedrive.live.com
+23.205.106.75                  api.steampowered.com
+23.205.106.76                  api.steampowered.com
+23.205.106.77                  api.steampowered.com
+23.205.106.78                  api.steampowered.com
+23.205.106.80                  api.steampowered.com
+23.205.106.81                  api.steampowered.com
+23.205.106.82                  api.steampowered.com
+23.205.106.83                  api.steampowered.com
+23.207.154.114                 c1-onenote-15.cdn.office.net
+23.213.69.74                   steamgames.com
+23.213.69.74                   steampowered.com
+23.213.92.153                  help.steampowered.com
+23.214.245.2                   store-content.ak.epicgames.com
+23.214.245.2                   store-site-backend-static.ak.epicgames.com
+23.215.0.132                   cdn.steampowered.com
+23.215.0.135                   steamcommunity-a.akamaihd.net
+23.215.0.135                   store.akamai.steamstatic.com
+23.215.0.136                   steamcommunity-a.akamaihd.net
+23.215.0.137                   cdn.steampowered.com
+23.215.0.137                   store.akamai.steamstatic.com
+23.215.0.230                   xbl-smooth.xboxlive.com
+23.215.0.234                   xbl-smooth.xboxlive.com
+23.215.0.36                    aod.itunes.apple.com
+23.215.0.36                    easylist-downloads.adblockplus.org
+23.215.0.38                    easylist-downloads.adblockplus.org
+23.215.0.43                    aod.itunes.apple.com
+23.215.0.43                    oneclient.sfx.ms
+23.215.0.44                    bigota.d.miui.com
+23.215.0.45                    bigota.d.miui.com
+23.215.0.46                    oneclient.sfx.ms
+23.218.115.55                  aod-ssl.itunes.apple.com
+23.221.240.64                  cdn.onenote.net
+23.221.240.9                   gameclipscontent-d2009.xboxlive.com
+23.221.240.9                   images-eds-ssl.xboxlive.com
+23.221.240.9                   xnotify.xboxlive.com
+23.222.197.175                 cdn1.unrealengine.com
+23.222.197.175                 cdn2.unrealengine.com
 23.33.238.117                  optus.com.au
 23.33.238.118                  optus.com.au
-23.38.111.102                  bigota.d.miui.com
-23.38.111.114                  www.msftconnecttest.com
-23.38.111.115                  www.msftconnecttest.com
-23.38.111.119                  tlu.dl.delivery.mp.microsoft.com
-23.38.111.99                   www.msftconnecttest.com
-23.4.51.147                    c1-onenote-15.cdn.office.net
-23.4.62.212                    store-content.ak.epicgames.com
-23.47.52.102                   xbl-smooth.xboxlive.com
-23.47.52.103                   xbl-smooth.xboxlive.com
-23.53.127.168                  assets1.xboxlive.cn
-23.53.127.169                  assets1.xboxlive.cn
-23.53.127.203                  hugeota.d.miui.com
-23.53.127.233                  hugeota.d.miui.com
-23.53.127.234                  i.scdn.co
-23.53.127.244                  assets1.xboxlive.cn
-23.53.127.246                  charts-images.scdn.co
-23.53.127.246                  i.scdn.co
-23.53.127.246                  misc.scdn.co
-23.55.178.11                   tlu.dl.delivery.mp.microsoft.com
-23.55.178.133                  www.msftconnecttest.com
-23.55.178.142                  www.msftconnecttest.com
-23.55.178.149                  tlu.dl.delivery.mp.microsoft.com
-23.55.178.153                  www.msftconnecttest.com
-23.55.178.154                  www.msftconnecttest.com
-23.55.178.171                  cdn.steampowered.com
-23.55.178.177                  cdn.steampowered.com
-23.55.178.23                   www.msftconnecttest.com
-23.55.178.4                    tlu.dl.delivery.mp.microsoft.com
-23.55.178.67                   www.msftconnecttest.com
-23.55.178.82                   tlu.dl.delivery.mp.microsoft.com
-23.56.229.74                   steamgames.com
-23.59.109.20                   steampowered.com
-23.60.174.7                    peoplehub.xboxlive.com
+23.34.124.241                  steamcommunity.com
+23.48.10.112                   store.steampowered.com
+23.48.203.135                  crl.t-mobile.com
+23.48.203.135                  hulu.com
+23.48.203.140                  hulu.com
+23.48.203.141                  vudu.com
+23.48.203.142                  hulu.com
+23.48.203.143                  vudu.com
+23.48.203.144                  hulu.com
+23.48.203.145                  crl.t-mobile.com
+23.48.203.147                  hulu.com
+23.48.203.147                  vudu.com
+23.48.8.9                      peoplehub.xboxlive.com
+23.53.11.104                   charts-images.scdn.co
+23.53.11.111                   charts-images.scdn.co
+23.53.11.111                   misc.scdn.co
+23.53.11.111                   seeded-session-images.scdn.co
+23.53.11.41                    charts-images.scdn.co
+23.53.11.42                    www.msftconnecttest.com
+23.53.11.47                    charts-images.scdn.co
+23.53.11.75                    www.msftconnecttest.com
+23.53.11.80                    charts-images.scdn.co
+23.53.11.81                    www.msftconnecttest.com
+23.53.35.39                    nbc.com
+23.53.35.41                    nbc.com
+23.54.127.112                  cdn.store.steampowered.com
+23.54.127.122                  cdn.store.steampowered.com
+23.54.127.145                  community.akamai.steamstatic.com
+23.54.127.146                  community.akamai.steamstatic.com
+23.54.127.174                  charts-images.scdn.co
+23.54.127.174                  misc.scdn.co
+23.54.127.174                  seeded-session-images.scdn.co
+23.54.127.202                  misc.scdn.co
+23.54.127.202                  seeded-session-images.scdn.co
+23.54.127.206                  charts-images.scdn.co
+23.54.127.228                  misc.scdn.co
+23.54.127.228                  seeded-session-images.scdn.co
+23.54.127.228                  www.msftconnecttest.com
+23.54.127.232                  charts-images.scdn.co
+23.54.127.236                  charts-images.scdn.co
+23.54.127.39                   cdn.akamai.steamstatic.com
+23.54.127.42                   cdn.akamai.steamstatic.com
+23.54.127.71                   epicgames-download1.akamaized.net
+23.54.127.74                   epicgames-download1.akamaized.net
+23.55.176.230                  www.msftncsi.com
+23.55.176.234                  media.steampowered.com
+23.55.176.236                  images-eds.xboxlive.com
+23.55.176.239                  www.msftncsi.com
+23.55.176.241                  images-eds.xboxlive.com
+23.55.176.241                  media.steampowered.com
+23.62.169.130                  southpark.cc.com
 23.82.138.118                  filters.adtidy.org
 2408:871a:2100:1356:0:ff:b028:9945 bdcu01.baidupcs.com
 2408:871a:2100:1356:0:ff:b028:9945 bdcu02.baidupcs.com
@@ -16587,91 +16546,78 @@ $stylesheet,subdocument,third-party,xmlhttprequest,domain=canna-power.to|canna.t
 240e:bf:b802:1d60:0:ff:b097:dc33 appall01.baidupcs.com
 240e:bf:b802:1f46:0:ff:b031:33fc xact07.baidupcs.com
 240e:bf:b802:1f46:0:ff:b031:33fc yqct07.baidupcs.com
-2600:1404:1200:1500::1737:b243 misc.scdn.co
-2600:1404:1200:1500::1737:b243 thisis-images.scdn.co
-2600:1404:1200:1500::1737:b251 misc.scdn.co
-2600:1404:1200:1500::1737:b251 thisis-images.scdn.co
-2600:1404:1200:1501::1726:6f65 charts-images.scdn.co
-2600:1404:1200:1501::1726:6f66 charts-images.scdn.co
-2600:1404:1200:1501::1726:6f66 hugeota.d.miui.com
-2600:1404:1200:1501::1726:6f67 charts-images.scdn.co
-2600:1404:1200:1501::1726:6f67 i.scdn.co
-2600:1404:1200:1501::1726:6f6a charts-images.scdn.co
-2600:1404:1200:1501::1726:6f6a i.scdn.co
-2600:1404:1200:1501::1726:6f6e charts-images.scdn.co
-2600:1404:1200:1501::1726:6f6e i.scdn.co
-2600:1404:1200:1501::1726:6f70 misc.scdn.co
-2600:1404:1200:1501::1726:6f71 i.scdn.co
-2600:1404:1200:1501::1726:6f73 i.scdn.co
-2600:1404:1200:1501::1726:6f73 misc.scdn.co
-2600:1404:1200:1501::1726:6f75 misc.scdn.co
-2600:1404:1200:1502::1737:b20a thisis-images.scdn.co
-2600:1404:1200:1502::1737:b214 thisis-images.scdn.co
-2600:1404:1200:1502::1737:b215 thisis-images.scdn.co
-2600:1404:1200:1504::17db:5b0a hugeota.d.miui.com
-2600:1404:1200:15::214:b2e7    heads4-ak-spotify-com.akamaized.net
-2600:1404:1200:15::214:b2e9    heads4-ak-spotify-com.akamaized.net
-2600:1404:1200:180::2215       southpark.cc.com
-2600:1404:1200:183::2215       southpark.cc.com
-2600:1404:1200:186::2215       southpark.cc.com
-2600:1404:1200:188::2215       southpark.cc.com
-2600:1404:1200:197::2215       southpark.cc.com
-2600:1404:1200:d::1737:b2ad    epicgames-download1.akamaized.net
-2600:1404:1200:d::1737:b2b5    epicgames-download1.akamaized.net
-2600:1404:6400:1880::20b6      aod-ssl.itunes.apple.com
-2600:1404:6400:1896::20b6      aod-ssl.itunes.apple.com
-2600:1404:6400:1994::4b36      c1-onenote-15.cdn.office.net
-2600:1404:6400:1996::4b36      c1-onenote-15.cdn.office.net
-2600:1404:6400:1a8a::57        gameclipscontent-d2009.xboxlive.com
-2600:1404:6400:1a8a::57        images-eds-ssl.xboxlive.com
-2600:1404:6400:1a8f::611       cdn.onenote.net
-2600:1404:6400:1a94::57        gameclipscontent-d2009.xboxlive.com
-2600:1404:6400:1a94::57        images-eds-ssl.xboxlive.com
-2600:1404:6400:1a94::611       cdn.onenote.net
-2600:1404:6400:1b::172f:3495   easylist-downloads.adblockplus.org
-2600:1404:6400:1b::172f:3497   easylist-downloads.adblockplus.org
-2600:1404:6400:1d00::17d4:b924 audio-akp-quic-spotify-com.akamaized.net
-2600:1404:6400:1d00::17d4:b92b audio-ak-spotify-com.akamaized.net
-2600:1404:6400:1d02::17d4:b906 audio-ak-spotify-com.akamaized.net
-2600:1404:6400:1d02::17d4:b909 oneclient.sfx.ms
-2600:1404:6400:1d04::17d5:e8e4 audio-akp-quic-spotify-com.akamaized.net
-2600:1404:6400:1d04::17d5:e8ee bigota.d.miui.com
-2600:1404:6400:1d04::17d5:e8f0 bigota.d.miui.com
-2600:1404:6400:1d08::17d5:e8a8 oneclient.sfx.ms
-2600:1404:6400:1d08::17d5:e8ae oneclient.sfx.ms
-2600:1404:6400:1d0c::17d5:e864 seeded-session-images.scdn.co
-2600:1404:6400:1d0c::17d5:e866 seeded-session-images.scdn.co
-2600:1404:6400:1d0c::17d5:e868 seeded-session-images.scdn.co
-2600:1404:6400:1d0c::17d5:e86b seeded-session-images.scdn.co
-2600:1404:6400:1d0c::17d5:e86d seeded-session-images.scdn.co
-2600:1404:6400:1d0e::17d5:e84c oneclient.sfx.ms
-2600:1404:6400:1d0e::17d5:e84e oneclient.sfx.ms
-2600:1404:6400:25::17de:f14a   crl.t-mobile.com
-2600:1404:6400:25::17de:f155   crl.t-mobile.com
-2600:1404:6400:268e::3b63      store-content.ak.epicgames.com
-2600:1404:6400:268e::3b63      store-site-backend-static.ak.epicgames.com
-2600:1404:6400:269e::3b63      store-content.ak.epicgames.com
-2600:1404:6400:269e::3b63      store-site-backend-static.ak.epicgames.com
-2600:1404:6400:3d::17c9:c38e   images-eds.xboxlive.com
-2600:1404:6400:3d::17c9:c397   images-eds.xboxlive.com
-2600:1404:ec00:2400::17db:5768 assets1.xboxlive.cn
-2600:1404:ec00:2400::17db:5768 assets2.xboxlive.cn
-2600:1404:ec00:2400::17db:5770 assets1.xboxlive.cn
-2600:1404:ec00:2400::17db:5770 assets2.xboxlive.cn
-2600:1404:ec00:2402::17db:5748 tlu.dl.delivery.mp.microsoft.com
-2600:1404:ec00:2402::17db:574c assets1.xboxlive.cn
-2600:1404:ec00:2402::17db:574d assets1.xboxlive.cn
-2600:1404:ec00:2402::17db:574d assets2.xboxlive.cn
-2600:1404:ec00:2404::17db:572c dl.delivery.mp.microsoft.com
-2600:1404:ec00:2406::17db:570a tlu.dl.delivery.mp.microsoft.com
-2600:1404:ec00:240c::1735:7fa8 assets1.xboxlive.cn
-2600:1404:ec00:240c::1735:7fa8 assets2.xboxlive.cn
-2600:1404:ec00:240c::1735:7fa9 assets2.xboxlive.cn
-2600:1404:ec00:240e::1735:7f90 dl.delivery.mp.microsoft.com
-2600:1404:ec00:a::17cd:6d09    xbl-smooth.xboxlive.com
-2600:1404:ec00:a::17cd:6d13    xbl-smooth.xboxlive.com
-2600:1405:8400:10::173e:e2c5   ipv6.msftconnecttest.com
-2600:1405:8400:10::173e:e2c7   ipv6.msftconnecttest.com
+2600:1408:5400:1c::173d:b30    ipv6.msftconnecttest.com
+2600:1408:5400:1c::173d:b45    ipv6.msftconnecttest.com
+2600:1408:5400:7::170c:9226    crl.t-mobile.com
+2600:1408:5400:7::170c:9227    crl.t-mobile.com
+2600:1408:a:200::212:43c8      assets1.xboxlive.cn
+2600:1408:a:200::212:43c8      assets2.xboxlive.cn
+2600:1408:a:200::212:43ce      i.scdn.co
+2600:1408:a:200::212:43ce      misc.scdn.co
+2600:1408:a:200::212:43ce      thisis-images.scdn.co
+2600:1408:a:200::212:43da      assets1.xboxlive.cn
+2600:1408:a:200::212:43da      assets2.xboxlive.cn
+2600:1408:a:201::212:4311      audio-akp-quic-spotify-com.akamaized.net
+2600:1408:a:202::170f:3c4      assets1.xboxlive.cn
+2600:1408:a:202::170f:3c4      assets2.xboxlive.cn
+2600:1408:a:202::170f:3c8      assets1.xboxlive.cn
+2600:1408:a:202::170f:3c8      assets2.xboxlive.cn
+2600:1408:a:203::170f:38f      audio-akp-quic-spotify-com.akamaized.net
+2600:1408:a:203::170f:398      i.scdn.co
+2600:1408:a:203::170f:398      misc.scdn.co
+2600:1408:a:203::170f:398      thisis-images.scdn.co
+2600:1408:c400:168c::20b6      aod-ssl.itunes.apple.com
+2600:1408:c400:168e::20b6      aod-ssl.itunes.apple.com
+2600:1408:c400:29::17da:da48   heads4-ak-spotify-com.akamaized.net
+2600:1408:c400:29::17da:da48   images-eds.xboxlive.com
+2600:1408:c400:29::17da:da49   images-eds.xboxlive.com
+2600:1408:c400:29::17da:da50   heads4-ak-spotify-com.akamaized.net
+2600:1408:c400:380::2215       southpark.cc.com
+2600:1408:c400:388::2215       southpark.cc.com
+2600:1408:c400:38d::2215       southpark.cc.com
+2600:1408:c400:392::2215       southpark.cc.com
+2600:1408:c400:394::2215       southpark.cc.com
+2600:1408:c400:984::4b36       c1-onenote-15.cdn.office.net
+2600:1408:c400:992::4b36       c1-onenote-15.cdn.office.net
+2600:1408:ec00:1082::3b63      store-content.ak.epicgames.com
+2600:1408:ec00:1082::3b63      store-site-backend-static.ak.epicgames.com
+2600:1408:ec00:1083::3b63      store-content.ak.epicgames.com
+2600:1408:ec00:1083::3b63      store-site-backend-static.ak.epicgames.com
+2600:1408:ec00:1400::1735:b64  oneclient.sfx.ms
+2600:1408:ec00:1400::1735:b65  audio-ak-spotify-com.akamaized.net
+2600:1408:ec00:1400::1735:b68  seeded-session-images.scdn.co
+2600:1408:ec00:1400::1735:b6a  seeded-session-images.scdn.co
+2600:1408:ec00:1400::1735:b6d  seeded-session-images.scdn.co
+2600:1408:ec00:1400::1735:b6f  charts-images.scdn.co
+2600:1408:ec00:1400::1735:b6f  seeded-session-images.scdn.co
+2600:1408:ec00:1400::1735:b70  oneclient.sfx.ms
+2600:1408:ec00:1402::1735:b4d  audio-ak-spotify-com.akamaized.net
+2600:1408:ec00:1402::1735:b50  seeded-session-images.scdn.co
+2600:1408:ec00:1404::1735:b25  bigota.d.miui.com
+2600:1408:ec00:1404::1735:b25  hugeota.d.miui.com
+2600:1408:ec00:1406::1735:b04  audio-ak-spotify-com.akamaized.net
+2600:1408:ec00:1406::1735:b07  oneclient.sfx.ms
+2600:1408:ec00:1408::1736:7fe4 charts-images.scdn.co
+2600:1408:ec00:140a::1736:7fca charts-images.scdn.co
+2600:1408:ec00:140a::1736:7fcd oneclient.sfx.ms
+2600:1408:ec00:140a::1736:7fcf bigota.d.miui.com
+2600:1408:ec00:140a::1736:7fcf hugeota.d.miui.com
+2600:1408:ec00:140c::1736:7fa8 audio-ak-spotify-com.akamaized.net
+2600:1408:ec00:140c::1736:7fa9 oneclient.sfx.ms
+2600:1408:ec00:140c::1736:7fae charts-images.scdn.co
+2600:1408:ec00:140c::1736:7fb1 audio-ak-spotify-com.akamaized.net
+2600:1408:ec00:17::17d7:86     xbl-smooth.xboxlive.com
+2600:1408:ec00:17::17d7:8c     xbl-smooth.xboxlive.com
+2600:1408:ec00:36::1736:7f29   easylist-downloads.adblockplus.org
+2600:1408:ec00:36::1736:7f2b   easylist-downloads.adblockplus.org
+2600:1408:ec00:43::1737:b04f   epicgames-download1.akamaized.net
+2600:1408:ec00:43::1737:b050   epicgames-download1.akamaized.net
+2600:1408:ec00:a84::57         gameclipscontent-d2009.xboxlive.com
+2600:1408:ec00:a84::57         images-eds-ssl.xboxlive.com
+2600:1408:ec00:a85::611        cdn.onenote.net
+2600:1408:ec00:a89::57         gameclipscontent-d2009.xboxlive.com
+2600:1408:ec00:a89::57         images-eds-ssl.xboxlive.com
+2600:1408:ec00:a8b::611        cdn.onenote.net
 2600:1901:0:84f4::80           disneyjunior.com
 2600:1901:1:388::              gae-spclient.spotify.com
 2600:1901:1:7c5::              spclient.wg.spotify.com
@@ -16680,17 +16626,17 @@ $stylesheet,subdocument,third-party,xmlhttprequest,domain=canna-power.to|canna.t
 2600:1f14:62a:de80::de70       nflxvideo.net
 2600:1f14:62a:de81::de70       netflix.net
 2600:1f14:62a:de82::de70       netflix.net
-2600:1f18:2148:bc00:2672:ecc7:69d9:6b47 registry-1.docker.io
 2600:1f18:2148:bc00:a8ab:967a:cf02:e2f4 docker.io
+2600:1f18:2148:bc00:cbee:96fb:ce97:e5ca registry-1.docker.io
+2600:1f18:2148:bc00:ea31:f2f:a990:edd1 registry-1.docker.io
+2600:1f18:2148:bc00:ed50:f2bb:b7f1:6296 registry-1.docker.io
 2600:1f18:2148:bc00:fe:c865:476b:8d94 registry-1.docker.io
 2600:1f18:2148:bc01:490a:f3a6:68d8:922c docker.io
-2600:1f18:2148:bc01:576f:6bd:6c27:4ce4 registry-1.docker.io
-2600:1f18:2148:bc01:b366:46a2:13e2:4c65 registry-1.docker.io
+2600:1f18:2148:bc01:84c0:7cbd:5990:3303 registry-1.docker.io
 2600:1f18:2148:bc01:e939:a0be:6929:ed84 registry-1.docker.io
-2600:1f18:2148:bc02:1acc:921e:2aec:fa7f registry-1.docker.io
+2600:1f18:2148:bc02:2f0b:ec75:f023:1215 registry-1.docker.io
 2600:1f18:2148:bc02:62d7:5ca4:dfe1:1053 docker.io
-2600:1f18:2148:bc02:76b:921b:5f26:cc47 registry-1.docker.io
-2600:1f18:2148:bc02:c55c:72b:e74c:428c registry-1.docker.io
+2600:1f18:2148:bc02:e0b2:afa1:bd26:2843 registry-1.docker.io
 2600:1f18:297:ba0e:7900:f622:48a8:f266 amctv.com
 2600:1f18:297:ba0e:7900:f622:48a8:f266 cbs.com
 2600:1f18:297:ba0e:7900:f622:48a8:f266 mtv.com
@@ -16716,79 +16662,71 @@ $stylesheet,subdocument,third-party,xmlhttprequest,domain=canna-power.to|canna.t
 2600:1f18:631e:2f82::de70      www.nflxvideo.net
 2600:1f18:631e:2f83::45        casting.prod.netflix.net
 2600:1f18:631e:2f84::137       casting.prod.netflix.net
-2600:9000:2020:200:1d:724a:9980:93a1 fileres.synology.com
-2600:9000:2020:2600:1d:724a:9980:93a1 fileres.synology.com
-2600:9000:2020:4000:1d:724a:9980:93a1 fileres.synology.com
-2600:9000:2020:4200:1d:724a:9980:93a1 fileres.synology.com
-2600:9000:2020:6a00:1d:724a:9980:93a1 fileres.synology.com
-2600:9000:2020:8200:1d:724a:9980:93a1 fileres.synology.com
-2600:9000:2020:9e00:1d:724a:9980:93a1 fileres.synology.com
-2600:9000:2020:f600:1d:724a:9980:93a1 fileres.synology.com
-2600:9000:2027:200:1:7dd4:4340:93a1 superota.d.miui.com
-2600:9000:2027:3400:1:7dd4:4340:93a1 superota.d.miui.com
-2600:9000:2027:6c00:1:7dd4:4340:93a1 superota.d.miui.com
-2600:9000:2027:9a00:1:7dd4:4340:93a1 superota.d.miui.com
-2600:9000:2027:b200:1:7dd4:4340:93a1 superota.d.miui.com
-2600:9000:2027:e400:1:7dd4:4340:93a1 superota.d.miui.com
-2600:9000:2027:ee00:1:7dd4:4340:93a1 superota.d.miui.com
-2600:9000:2027:f600:1:7dd4:4340:93a1 superota.d.miui.com
-2600:9000:203d:1000:3:b190:1b00:93a1 sg-public-data-api.hoyoverse.com
-2600:9000:203d:4e00:3:b190:1b00:93a1 sg-public-data-api.hoyoverse.com
-2600:9000:203d:6400:3:b190:1b00:93a1 sg-public-data-api.hoyoverse.com
-2600:9000:203d:6a00:3:b190:1b00:93a1 sg-public-data-api.hoyoverse.com
-2600:9000:203d:c200:3:b190:1b00:93a1 sg-public-data-api.hoyoverse.com
-2600:9000:203d:d200:3:b190:1b00:93a1 sg-public-data-api.hoyoverse.com
-2600:9000:203d:f200:3:b190:1b00:93a1 sg-public-data-api.hoyoverse.com
-2600:9000:203d:f800:3:b190:1b00:93a1 sg-public-data-api.hoyoverse.com
-2600:9000:209c:4200:10:e3cf:3100:93a1 download.epicgames.com
-2600:9000:209c:600:10:e3cf:3100:93a1 download.epicgames.com
-2600:9000:209c:800:10:e3cf:3100:93a1 download.epicgames.com
-2600:9000:209c:9400:10:e3cf:3100:93a1 download.epicgames.com
-2600:9000:209c:9a00:10:e3cf:3100:93a1 download.epicgames.com
-2600:9000:209c:ae00:10:e3cf:3100:93a1 download.epicgames.com
-2600:9000:209c:d000:10:e3cf:3100:93a1 download.epicgames.com
-2600:9000:209c:da00:10:e3cf:3100:93a1 download.epicgames.com
-2600:9000:21ec:3400:7:9bc5:8900:93a1 hulu.jp
-2600:9000:21ec:5c00:7:9bc5:8900:93a1 hulu.jp
-2600:9000:21ec:6400:7:9bc5:8900:93a1 hulu.jp
-2600:9000:21ec:9800:7:9bc5:8900:93a1 hulu.jp
-2600:9000:21ec:a00:7:9bc5:8900:93a1 hulu.jp
-2600:9000:21ec:aa00:7:9bc5:8900:93a1 hulu.jp
-2600:9000:21ec:b600:7:9bc5:8900:93a1 hulu.jp
-2600:9000:21ec:d600:7:9bc5:8900:93a1 hulu.jp
-2600:9000:2466:4400:1:9bd6:a680:93a1 abtest-api-data-sg.hoyoverse.com
-2600:9000:2466:5400:1:9bd6:a680:93a1 abtest-api-data-sg.hoyoverse.com
-2600:9000:2466:6a00:1:9bd6:a680:93a1 abtest-api-data-sg.hoyoverse.com
-2600:9000:2466:7a00:1:9bd6:a680:93a1 abtest-api-data-sg.hoyoverse.com
-2600:9000:2466:dc00:1:9bd6:a680:93a1 abtest-api-data-sg.hoyoverse.com
-2600:9000:2466:e800:1:9bd6:a680:93a1 abtest-api-data-sg.hoyoverse.com
-2600:9000:2466:f600:1:9bd6:a680:93a1 abtest-api-data-sg.hoyoverse.com
-2600:9000:2466:fa00:1:9bd6:a680:93a1 abtest-api-data-sg.hoyoverse.com
+2600:9000:2501:4400:10:e3cf:3100:93a1 download.epicgames.com
+2600:9000:2501:8000:10:e3cf:3100:93a1 download.epicgames.com
+2600:9000:2501:b000:10:e3cf:3100:93a1 download.epicgames.com
+2600:9000:2501:b600:10:e3cf:3100:93a1 download.epicgames.com
+2600:9000:2501:ca00:10:e3cf:3100:93a1 download.epicgames.com
+2600:9000:2501:dc00:10:e3cf:3100:93a1 download.epicgames.com
+2600:9000:2501:e800:10:e3cf:3100:93a1 download.epicgames.com
+2600:9000:2501:ec00:10:e3cf:3100:93a1 download.epicgames.com
+2600:9000:286a:1200:3:b190:1b00:93a1 sg-public-data-api.hoyoverse.com
+2600:9000:286a:1800:3:b190:1b00:93a1 sg-public-data-api.hoyoverse.com
+2600:9000:286a:2000:3:b190:1b00:93a1 sg-public-data-api.hoyoverse.com
+2600:9000:286a:2600:3:b190:1b00:93a1 sg-public-data-api.hoyoverse.com
+2600:9000:286a:2e00:3:b190:1b00:93a1 sg-public-data-api.hoyoverse.com
+2600:9000:286a:4600:3:b190:1b00:93a1 sg-public-data-api.hoyoverse.com
+2600:9000:286a:9c00:3:b190:1b00:93a1 sg-public-data-api.hoyoverse.com
+2600:9000:286a:c400:3:b190:1b00:93a1 sg-public-data-api.hoyoverse.com
+2600:9000:286d:1200:1:9bd6:a680:93a1 abtest-api-data-sg.hoyoverse.com
+2600:9000:286d:3400:1:9bd6:a680:93a1 abtest-api-data-sg.hoyoverse.com
+2600:9000:286d:400:1:9bd6:a680:93a1 abtest-api-data-sg.hoyoverse.com
+2600:9000:286d:4400:1:9bd6:a680:93a1 abtest-api-data-sg.hoyoverse.com
+2600:9000:286d:4c00:1:9bd6:a680:93a1 abtest-api-data-sg.hoyoverse.com
+2600:9000:286d:9800:1:9bd6:a680:93a1 abtest-api-data-sg.hoyoverse.com
+2600:9000:286d:ae00:1:9bd6:a680:93a1 abtest-api-data-sg.hoyoverse.com
+2600:9000:286d:c00:1:9bd6:a680:93a1 abtest-api-data-sg.hoyoverse.com
+2600:9000:28a6:1200:7:9bc5:8900:93a1 hulu.jp
+2600:9000:28a6:2e00:7:9bc5:8900:93a1 hulu.jp
+2600:9000:28a6:8600:7:9bc5:8900:93a1 hulu.jp
+2600:9000:28a6:8c00:7:9bc5:8900:93a1 hulu.jp
+2600:9000:28a6:9e00:7:9bc5:8900:93a1 hulu.jp
+2600:9000:28a6:aa00:7:9bc5:8900:93a1 hulu.jp
+2600:9000:28a6:b200:7:9bc5:8900:93a1 hulu.jp
+2600:9000:28a6:c600:7:9bc5:8900:93a1 hulu.jp
+2600:9000:28a9:1c00:1d:724a:9980:93a1 fileres.synology.com
+2600:9000:28a9:3e00:1d:724a:9980:93a1 fileres.synology.com
+2600:9000:28a9:4600:1d:724a:9980:93a1 fileres.synology.com
+2600:9000:28a9:5600:1d:724a:9980:93a1 fileres.synology.com
+2600:9000:28a9:7c00:1d:724a:9980:93a1 fileres.synology.com
+2600:9000:28a9:800:1d:724a:9980:93a1 fileres.synology.com
+2600:9000:28a9:9400:1d:724a:9980:93a1 fileres.synology.com
+2600:9000:28a9:de00:1d:724a:9980:93a1 fileres.synology.com
 2602:f79a::1                   msgstore.www.notion.so
 2602:f79a::1                   www.notion.so
 2602:f79a::2                   msgstore.www.notion.so
 2602:f79a::2                   www.notion.so
-2603:1030:a07:a::402           client.wns.windows.com
-2603:1030:a07:a::402           skydrive.wns.windows.com
-2603:1061:14:1b1::1            www.onenote.com
-2603:1063:1e:103::365:7ea3     config.edge.skype.com
-2603:1063:1e:108::365:7ea3     config.edge.skype.com
-2603:1063:1e:10b::365:7ea3     config.edge.skype.com
-2603:1063:1e:10d::365:7ea3     config.edge.skype.com
-2603:1063:1e:10f::365:7ea3     config.edge.skype.com
-2603:1063:1e:11a::365:7ea3     config.edge.skype.com
-2603:1063:1e:13a::365:7ea3     config.edge.skype.com
-2603:1063:1e:148::365:7ea3     config.edge.skype.com
+2603:1030:40c:e::2             client.wns.windows.com
+2603:1030:40c:e::2             skydrive.wns.windows.com
+2603:1061:14:73::1             www.onenote.com
 2603:1063:2000:1::12           onenote.officeapps.live.com
 2603:1063:2000::12             onenote.officeapps.live.com
-2603:1063:2001:c09::365:ff1    ocws.officeapps.live.com
-2603:1063:2001:c10::365:ff1    ocws.officeapps.live.com
-2603:1063:2001:c1b::365:ff1    ocws.officeapps.live.com
-2603:1063:2001:c23::365:ff1    roaming.officeapps.live.com
-2603:1063:2001:c2f::365:ff1    ocws.officeapps.live.com
-2603:1063:2001:c2f::365:ff1    roaming.officeapps.live.com
-2603:1063:2001:c37::365:ff1    roaming.officeapps.live.com
-2603:1063:2001:c41::365:ff1    roaming.officeapps.live.com
+2603:1063:2001:206::365:ff1    roaming.officeapps.live.com
+2603:1063:2001:20b::365:ff1    roaming.officeapps.live.com
+2603:1063:2001:23f::365:ff1    roaming.officeapps.live.com
+2603:1063:2001:242::365:ff1    roaming.officeapps.live.com
+2603:1063:2001:502::365:ff1    ocws.officeapps.live.com
+2603:1063:2001:540::365:ff1    ocws.officeapps.live.com
+2603:1063:2001:541::365:ff1    ocws.officeapps.live.com
+2603:1063:2001:54a::365:ff1    ocws.officeapps.live.com
+2603:1063:8:100::              config.edge.skype.com
+2603:1063:8:112::365:7ea3      config.edge.skype.com
+2603:1063:8:114::365:7ea3      config.edge.skype.com
+2603:1063:8:136::365:7ea3      config.edge.skype.com
+2603:1063:8:13c::365:7ea3      config.edge.skype.com
+2603:1063:8:141::365:7ea3      config.edge.skype.com
+2603:1063:8:148::365:7ea3      config.edge.skype.com
+2603:1063:8:14a::365:7ea3      config.edge.skype.com
 2606:4700:10::6814:182c        cwtv.com
 2606:4700:10::6814:1bba        global.synologydownload.com
 2606:4700:10::6814:1ce8        ecchi.iwara.tv
@@ -16876,43 +16814,35 @@ $stylesheet,subdocument,third-party,xmlhttprequest,domain=canna-power.to|canna.t
 2606:50c0:8003::154            raw.githubusercontent.com
 2606:50c0:8003::154            user-images.githubusercontent.com
 2606:50c0:8003::215            github.githubassets.com
-2607:f8b0:4003:c4a::bc         alt1-mtalk.google.com
-2607:f8b0:4003:c4a::bc         alt1.mobile-gtalk.l.google.com
-2607:f8b0:4023:1000::5f        translate.googleapis.com
-2607:f8b0:4023:1000::6e        googlecn-lopri.l.google.com
-2607:f8b0:4023:1000::6e        www.googleapis.cn
-2607:f8b0:4023:1002::77        play-lh.googleusercontent.com
-2607:f8b0:4023:1004::6e        services.googleapis.cn
-2607:f8b0:4023:1009::64        play-fe.googleapis.com
-2607:f8b0:4023:1009::64        www3.l.google.com
-2607:f8b0:4023:1009::71        play-fe.googleapis.com
-2607:f8b0:4023:1009::71        www3.l.google.com
-2607:f8b0:4023:1009::8a        play-fe.googleapis.com
-2607:f8b0:4023:1009::8a        www3.l.google.com
-2607:f8b0:4023:1009::8b        play-fe.googleapis.com
-2607:f8b0:4023:1009::8b        www3.l.google.com
-2607:f8b0:4023:1009::bc        mobile-gtalk.l.google.com
-2607:f8b0:4023:100f::6e        connectivitycheck.gstatic.cn
-2607:f8b0:4023:1015::64        translate.google.com
-2607:f8b0:4023:1015::65        translate.google.com
-2607:f8b0:4023:1015::8a        translate.google.com
-2607:f8b0:4023:1015::8b        translate.google.com
-2607:f8b0:4023:1015::bc        mtalk.google.com
-2607:f8b0:4023:141f::bc        alt7-mtalk.google.com
-2607:f8b0:4023:141f::bc        alt7.mobile-gtalk.l.google.com
-2607:f8b0:4023:2c03::bc        alt5-mtalk.google.com
-2607:f8b0:4023:2c03::bc        alt5.mobile-gtalk.l.google.com
-2607:f8b0:4023:80b::64         clientservices.googleapis.com
-2607:f8b0:4023:80b::65         clientservices.googleapis.com
-2607:f8b0:4023:80b::71         clientservices.googleapis.com
-2607:f8b0:4023:80b::8a         clientservices.googleapis.com
-2607:f8b0:4024:c0f::bc         alt3-mtalk.google.com
-2607:f8b0:4024:c0f::bc         alt3.mobile-gtalk.l.google.com
+2607:f8b0:4004:c09::64         play-fe.googleapis.com
+2607:f8b0:4004:c09::66         play-fe.googleapis.com
+2607:f8b0:4004:c09::77         play-lh.googleusercontent.com
+2607:f8b0:4004:c09::8a         play-fe.googleapis.com
+2607:f8b0:4004:c09::8b         play-fe.googleapis.com
+2607:f8b0:4004:c0b::bc         mtalk.google.com
+2607:f8b0:4004:c19::64         clientservices.googleapis.com
+2607:f8b0:4004:c19::65         clientservices.googleapis.com
+2607:f8b0:4004:c19::8a         clientservices.googleapis.com
+2607:f8b0:4004:c19::8b         clientservices.googleapis.com
+2607:f8b0:4004:c1b::5f         translate.googleapis.com
+2607:f8b0:4004:c1b::65         www3.l.google.com
+2607:f8b0:4004:c1b::66         www3.l.google.com
+2607:f8b0:4004:c1b::8a         www3.l.google.com
+2607:f8b0:4004:c1b::8b         www3.l.google.com
+2607:f8b0:4004:c1f::6e         www.googleapis.cn
+2607:f8b0:4004:c21::bc         mobile-gtalk.l.google.com
+2607:f8b0:4004:c23::64         translate.google.com
+2607:f8b0:4004:c23::65         translate.google.com
+2607:f8b0:4004:c23::6e         googlecn-lopri.l.google.com
+2607:f8b0:4004:c23::71         translate.google.com
+2607:f8b0:4004:c23::8b         translate.google.com
+2607:f8b0:4004:c25::6e         services.googleapis.cn
+2607:f8b0:4004:c29::6e         connectivitycheck.gstatic.cn
 2620:106:e001:f00d::e7         pandora.com
-2620:149:a32:f000::137         audio.itunes.apple.com
-2620:149:a32:f000::142         audio.itunes.apple.com
-2620:149:a32:f000::146         aod.itunes.apple.com
-2620:149:a32:f000::149         aod.itunes.apple.com
+2620:149:a10:f000::134         audio.itunes.apple.com
+2620:149:a10:f000::141         audio.itunes.apple.com
+2620:149:a10:f000::145         aod.itunes.apple.com
+2620:149:a10:f000::146         aod.itunes.apple.com
 2620:1ec:21::16                pipelines.actions.githubusercontent.com
 2620:1ec:33:1::10              bing.com
 2620:1ec:33:1::11              edge.microsoft.com
@@ -16923,23 +16853,35 @@ $stylesheet,subdocument,third-party,xmlhttprequest,domain=canna-power.to|canna.t
 2620:1ec:50::11                docs.live.net
 2620:1ec:50::11                public.bn.files.1drv.com
 2620:1ec:50::11                public.dm.files.1drv.com
+2620:1ec:50::11                skyapi.onedrive.live.com
 2620:1ec:50::11                skydrivesync.policies.live.net
-2620:1ec:51::11                skyapi.onedrive.live.com
-2620:1ec:bdf::57               acctcdn.msauth.net
-2620:1ec:bdf::66               logincdn.msauth.net
-27.128.217.46                  d8.baidupcs.com
+2620:1ec:bdf::40               acctcdn.msauth.net
+2620:1ec:bdf::40               logincdn.msauth.net
+27.128.215.46                  d9.baidupcs.com
+27.128.217.38                  v8.baidupcs.com
+27.128.217.46                  d11.baidupcs.com
+27.128.217.46                  d9.baidupcs.com
+27.221.124.46                  qdcache00.baidupcs.com
+2800:3f0:4003:c14::bc          alt1-mtalk.google.com
+2800:3f0:4003:c14::bc          alt1.mobile-gtalk.l.google.com
+2a00:1450:4001:c21::bc         alt7-mtalk.google.com
+2a00:1450:4001:c21::bc         alt7.mobile-gtalk.l.google.com
+2a00:1450:4009:c0f::bc         alt3-mtalk.google.com
+2a00:1450:4009:c0f::bc         alt3.mobile-gtalk.l.google.com
+2a00:1450:4025:402::bc         alt5-mtalk.google.com
+2a00:1450:4025:402::bc         alt5.mobile-gtalk.l.google.com
 2a00:86c0:2090::1              ae.nflximg.net
 2a00:86c0:2090::1              assets.nflxext.com
 2a00:86c0:2090::1              codex.nflxext.com
 2a00:86c0:2091::1              ae.nflximg.net
 2a00:86c0:2091::1              assets.nflxext.com
 2a00:86c0:2091::1              codex.nflxext.com
+2a03:90c0:888c::888c           dl.delivery.mp.microsoft.com
 2a04:4e42:200::774             is1-ssl.mzstatic.com
 2a04:4e42:200::774             is2-ssl.mzstatic.com
 2a04:4e42:200::774             is3-ssl.mzstatic.com
 2a04:4e42:200::774             is4-ssl.mzstatic.com
 2a04:4e42:200::774             is5-ssl.mzstatic.com
-2a04:4e42:26::644              deb.debian.org
 2a04:4e42:400::774             is1-ssl.mzstatic.com
 2a04:4e42:400::774             is2-ssl.mzstatic.com
 2a04:4e42:400::774             is3-ssl.mzstatic.com
@@ -16958,7 +16900,9 @@ $stylesheet,subdocument,third-party,xmlhttprequest,domain=canna-power.to|canna.t
 2a04:4e42:600::774             is3-ssl.mzstatic.com
 2a04:4e42:600::774             is4-ssl.mzstatic.com
 2a04:4e42:600::774             is5-ssl.mzstatic.com
-2a04:4e42:8a::684              msedgeextensions.sf.tlu.dl.delivery.mp.microsoft.com
+2a04:4e42:77::684              msedgeextensions.sf.tlu.dl.delivery.mp.microsoft.com
+2a04:4e42:77::684              tlu.dl.delivery.mp.microsoft.com
+2a04:4e42:79::644              deb.debian.org
 2a04:4e42::774                 is1-ssl.mzstatic.com
 2a04:4e42::774                 is2-ssl.mzstatic.com
 2a04:4e42::774                 is3-ssl.mzstatic.com
@@ -16974,43 +16918,112 @@ $stylesheet,subdocument,third-party,xmlhttprequest,domain=canna-power.to|canna.t
 2a06:98c1:3105::ac40:94f5      customers.gitlab.com
 2a06:98c1:3105::ac40:94f5      levelup.gitlab.com
 2a06:98c1:3105::ac40:94f5      packages.gitlab.com
-3.161.225.109                  find.synology.com
-3.161.225.110                  find.synology.com
-3.161.225.3                    find.synology.com
-3.161.225.77                   find.synology.com
-3.168.24.50                    update7.synology.com
-3.168.24.6                     update7.synology.com
-3.168.24.67                    update7.synology.com
-3.168.24.89                    update7.synology.com
-3.170.115.123                  gallery.synology.com
-3.170.115.42                   gallery.synology.com
-3.170.115.51                   gallery.synology.com
-3.170.115.60                   gallery.synology.com
+3.162.103.104                  www-ai.synology.com
+3.162.103.105                  www-ai.synology.com
+3.162.103.56                   www-ai.synology.com
+3.162.103.61                   www-ai.synology.com
+3.167.69.15                    beinsportsconnect.tv
+3.167.69.31                    beinsportsconnect.tv
+3.167.69.66                    beinsportsconnect.tv
+3.167.69.67                    help.synology.com
+3.167.69.74                    help.synology.com
+3.167.69.75                    help.synology.com
+3.167.69.9                     help.synology.com
+3.167.69.97                    beinsportsconnect.tv
+3.167.88.101                   www.synology.com
+3.167.88.110                   www.synology.com
+3.167.88.31                    www.synology.com
+3.167.88.34                    www.synology.com
+3.167.99.109                   update7.synology.com
+3.167.99.111                   update7.synology.com
+3.167.99.5                     update7.synology.com
+3.167.99.65                    update7.synology.com
+3.170.19.104                   abtest-api-data-sg.hoyoverse.com
 3.170.19.109                   archive.synology.com
 3.170.19.112                   archive.synology.com
+3.170.19.120                   abtest-api-data-sg.hoyoverse.com
 3.170.19.129                   archive.synology.com
 3.170.19.17                    archive.synology.com
-3.171.151.176                  d3c33hcgiwev3.cloudfront.net
-3.171.151.177                  d3c33hcgiwev3.cloudfront.net
-3.171.151.29                   d3c33hcgiwev3.cloudfront.net
-3.171.151.86                   d3c33hcgiwev3.cloudfront.net
+3.170.19.42                    sg-hkrpg-api-static.hoyoverse.com
+3.170.19.52                    sg-hkrpg-api-static.hoyoverse.com
+3.170.19.60                    sg-hkrpg-api-static.hoyoverse.com
+3.170.19.7                     abtest-api-data-sg.hoyoverse.com
+3.170.19.74                    abtest-api-data-sg.hoyoverse.com
+3.170.19.97                    sg-hkrpg-api-static.hoyoverse.com
+3.170.3.11                     account.synology.com
+3.170.3.13                     account.synology.com
+3.170.3.13                     coursera.org
+3.170.3.25                     sg-public-data-api.hoyoverse.com
+3.170.3.28                     coursera.org
+3.170.3.37                     sg-public-data-api.hoyoverse.com
+3.170.3.40                     sg-public-data-api.hoyoverse.com
+3.170.3.42                     account.synology.com
+3.170.3.62                     coursera.org
+3.170.3.91                     coursera.org
+3.170.3.92                     account.synology.com
+3.170.3.99                     sg-public-data-api.hoyoverse.com
+3.170.42.100                   cdn.unrealengine.com
+3.170.42.111                   cdn.unrealengine.com
+3.170.42.117                   hkrpg-sdk-os.hoyoverse.com
+3.170.42.120                   hkrpg-sdk-os.hoyoverse.com
+3.170.42.15                    gallery.synology.com
+3.170.42.29                    gallery.synology.com
+3.170.42.51                    gallery.synology.com
+3.170.42.66                    gallery.synology.com
+3.170.42.85                    cdn.unrealengine.com
+3.170.42.92                    hkrpg-sdk-os.hoyoverse.com
+3.170.42.98                    cdn.unrealengine.com
+3.170.42.99                    hkrpg-sdk-os.hoyoverse.com
+3.170.7.159                    d3c33hcgiwev3.cloudfront.net
+3.170.7.173                    d3c33hcgiwev3.cloudfront.net
+3.170.7.203                    d3c33hcgiwev3.cloudfront.net
+3.170.7.215                    d3c33hcgiwev3.cloudfront.net
+3.171.38.22                    happyon.jp
+3.171.38.58                    happyon.jp
+3.171.38.65                    happyon.jp
+3.171.38.73                    happyon.jp
+3.171.61.11                    amazonvideo.com
+3.171.61.111                   global.download.synology.com
+3.171.61.115                   global.download.synology.com
+3.171.61.16                    global.download.synology.com
+3.171.61.24                    amazonvideo.com
+3.171.61.65                    amazonvideo.com
+3.171.61.81                    global.download.synology.com
+3.171.61.90                    amazonvideo.com
+3.171.76.12                    d3njjcbhbojbot.cloudfront.net
+3.171.76.35                    d3njjcbhbojbot.cloudfront.net
+3.171.76.39                    hulu.jp
+3.171.76.5                     hulu.jp
+3.171.76.80                    d3njjcbhbojbot.cloudfront.net
+3.171.76.82                    d3njjcbhbojbot.cloudfront.net
+3.171.76.92                    hulu.jp
+3.171.76.93                    hulu.jp
+3.171.85.21                    fileres.synology.com
+3.171.85.29                    hkrpg-sdk-os-static.hoyoverse.com
+3.171.85.31                    fileres.synology.com
+3.171.85.33                    fileres.synology.com
+3.171.85.45                    hkrpg-sdk-os-static.hoyoverse.com
+3.171.85.71                    hkrpg-sdk-os-static.hoyoverse.com
+3.171.85.97                    fileres.synology.com
+3.171.85.99                    hkrpg-sdk-os-static.hoyoverse.com
 3.212.84.151                   turner.com
-3.214.10.67                    registry-1.docker.io
-3.218.229.48                   registry-1.docker.io
-3.221.100.247                  registry-1.docker.io
 3.221.228.214                  casting.prod.netflix.net
+3.221.26.248                   tracking.epicgames.com
 3.229.234.152                  brightcove.com
 3.232.130.55                   tracking.epicgames.com
 3.253.170.23                   amazon.co.uk
 3.253.181.192                  amazon.co.uk
 3.254.236.223                  amazon.co.uk
 3.33.251.168                   beinsportsconnect.net
+3.5.80.90                      s3.us-west-2.amazonaws.com
+3.5.81.22                      s3.us-west-2.amazonaws.com
 32.194.120.112                 docker.io
-32.199.11.1                    eulatracking-public-service-prod06.ol.epicgames.com
+32.196.9.70                    registry-1.docker.io
 34.110.155.89                  disneyjunior.com
 34.158.1.133                   ap-gew4.spotify.com
 34.158.255.62                  ap-gue1.spotify.com
 34.218.19.240                  netflix.net
+34.232.220.78                  eulatracking-public-service-prod06.ol.epicgames.com
 34.252.74.1                    netflix.net
 34.252.74.1                    nflxvideo.net
 35.167.130.181                 hbogo.com
@@ -17055,26 +17068,23 @@ $stylesheet,subdocument,third-party,xmlhttprequest,domain=canna-power.to|canna.t
 36.156.81.210                  st.dl.eccdnx.com
 36.156.81.210                  store.st.dl.bscstorage.net
 36.248.16.46                   d7.baidupcs.com
+36.42.75.46                    nbcache00.baidupcs.com
 3dmgame.com##.alertad
 3dmgame.com##div.content:nth-child(3) > div.Content_R:nth-child(3) > div.dj_warp_e.mg_bt30:nth-child(8)
-4.207.44.77                    mobile.pipe.aria.microsoft.com
+4.150.223.106                  mobile.pipe.aria.microsoft.com
 40.113.76.66                   games.metaservices.microsoft.com
-40.126.62.129                  account.live.com
 40.126.62.130                  account.live.com
+40.126.62.130                  login.live.com
 40.126.62.131                  account.live.com
-40.89.244.232                  duckduckgo.com
-40.89.244.232                  www.duckduckgo.com
+40.126.62.131                  login.live.com
+40.126.62.132                  account.live.com
+40.126.62.132                  login.live.com
+40.90.8.84                     activityhub.xboxlive.com
 404: Not Found
-42.101.76.232                  cdn-ali.content.steamchina.com
-42.101.76.233                  cdn-ali.content.steamchina.com
-42.101.76.234                  cdn-ali.content.steamchina.com
-42.101.76.235                  cdn-ali.content.steamchina.com
-42.101.76.236                  cdn-ali.content.steamchina.com
-42.101.76.237                  cdn-ali.content.steamchina.com
-42.101.76.238                  cdn-ali.content.steamchina.com
-42.101.76.248                  cdn-ali.content.steamchina.com
+42.101.56.46                   d8.baidupcs.com
+42.81.31.46                    d8.baidupcs.com
 43.159.0.230                   weighted-zh-eulatracking-public-service-prod06.ol.epicgames.com
-44.218.125.103                 registry-1.docker.io
+44.205.59.182                  registry-1.docker.io
 44.226.113.145                 netflix.net
 45.57.90.1                     ae.nflximg.net
 45.57.90.1                     assets.nflxext.com
@@ -17083,13 +17093,13 @@ $stylesheet,subdocument,third-party,xmlhttprequest,domain=canna-power.to|canna.t
 45.57.91.1                     assets.nflxext.com
 45.57.91.1                     codex.nflxext.com
 46.137.171.215                 netflix.net
-47.236.118.158                 update.miui.com
 47.236.127.146                 update.miui.com
 47.236.137.1                   update.miui.com
 47.236.150.125                 update.miui.com
 47.236.189.72                  update.miui.com
 47.236.195.109                 update.miui.com
 47.236.200.239                 update.miui.com
+47.236.206.250                 update.miui.com
 47.236.234.76                  update.miui.com
 47.236.39.122                  update.miui.com
 47.236.56.198                  update.miui.com
@@ -17109,83 +17119,52 @@ $stylesheet,subdocument,third-party,xmlhttprequest,domain=canna-power.to|canna.t
 52.0.131.132                   casting.prod.netflix.net
 52.108.8.12                    onenote.officeapps.live.com
 52.108.9.12                    onenote.officeapps.live.com
-52.110.2.130                   ocws.officeapps.live.com
-52.110.2.144                   ocws.officeapps.live.com
-52.110.2.145                   ocws.officeapps.live.com
+52.110.2.152                   ocws.officeapps.live.com
 52.110.2.164                   ocws.officeapps.live.com
-52.110.7.158                   roaming.officeapps.live.com
-52.110.7.163                   roaming.officeapps.live.com
-52.110.7.173                   roaming.officeapps.live.com
-52.110.7.186                   roaming.officeapps.live.com
-52.123.250.17                  config.edge.skype.com
-52.123.250.36                  config.edge.skype.com
-52.123.250.54                  config.edge.skype.com
-52.123.250.8                   config.edge.skype.com
+52.110.2.166                   ocws.officeapps.live.com
+52.110.2.167                   ocws.officeapps.live.com
+52.110.8.128                   roaming.officeapps.live.com
+52.110.8.131                   roaming.officeapps.live.com
+52.110.8.133                   roaming.officeapps.live.com
+52.110.8.164                   roaming.officeapps.live.com
+52.149.246.39                  duckduckgo.com
+52.149.246.39                  www.duckduckgo.com
+52.200.22.151                  registry-1.docker.io
 52.205.19.251                  hbogo.com
 52.205.19.251                  hbonow.com
-52.216.209.65                  github-production-repository-file-5c1aeb.s3.amazonaws.com
-52.216.215.33                  github-com.s3.amazonaws.com
-52.216.36.137                  github-com.s3.amazonaws.com
-52.216.37.73                   github-production-release-asset-2e65be.s3.amazonaws.com
-52.216.41.177                  github-cloud.s3.amazonaws.com
-52.216.51.193                  github-com.s3.amazonaws.com
-52.216.76.172                  github-cloud.s3.amazonaws.com
-52.217.141.25                  github-com.s3.amazonaws.com
-52.217.172.177                 github-cloud.s3.amazonaws.com
-52.217.202.233                 github-cloud.s3.amazonaws.com
-52.217.230.201                 github-production-release-asset-2e65be.s3.amazonaws.com
-52.217.46.92                   github-production-user-asset-6210df.s3.amazonaws.com
-52.217.69.164                  github-production-release-asset-2e65be.s3.amazonaws.com
-52.217.91.156                  github-cloud.s3.amazonaws.com
-52.218.179.176                 s3.us-west-2.amazonaws.com
-52.218.218.184                 s3.us-west-2.amazonaws.com
-52.218.243.88                  s3.us-west-2.amazonaws.com
-52.222.205.111                 download.epicgames.com
-52.222.205.119                 happyon.jp
-52.222.205.127                 download.epicgames.com
-52.222.205.129                 help.synology.com
-52.222.205.17                  happyon.jp
-52.222.205.20                  download.epicgames.com
-52.222.205.27                  help.synology.com
-52.222.205.3                   happyon.jp
-52.222.205.30                  help.synology.com
-52.222.205.65                  happyon.jp
-52.222.205.72                  help.synology.com
-52.222.205.96                  download.epicgames.com
+52.216.211.105                 github-production-repository-file-5c1aeb.s3.amazonaws.com
+52.216.219.121                 github-com.s3.amazonaws.com
+52.216.243.100                 github-production-release-asset-2e65be.s3.amazonaws.com
+52.216.244.132                 github-cloud.s3.amazonaws.com
+52.216.27.4                    github-production-release-asset-2e65be.s3.amazonaws.com
+52.217.135.153                 github-production-release-asset-2e65be.s3.amazonaws.com
+52.217.165.33                  github-com.s3.amazonaws.com
+52.217.175.1                   github-production-user-asset-6210df.s3.amazonaws.com
+52.217.193.225                 github-production-user-asset-6210df.s3.amazonaws.com
+52.217.197.185                 github-cloud.s3.amazonaws.com
+52.217.198.145                 github-production-user-asset-6210df.s3.amazonaws.com
+52.217.224.193                 github-production-repository-file-5c1aeb.s3.amazonaws.com
+52.217.234.217                 github-com.s3.amazonaws.com
+52.217.66.92                   github-production-repository-file-5c1aeb.s3.amazonaws.com
+52.217.70.188                  github-production-release-asset-2e65be.s3.amazonaws.com
+52.218.180.48                  s3.us-west-2.amazonaws.com
 52.224.38.193                  github.dev
+52.225.51.39                   storage.live.com
 52.24.41.24                    hbogo.com
 52.24.41.24                    hbonow.com
 52.25.134.166                  warnerbros.com
 52.31.48.193                   netflix.net
 52.4.94.166                    hbogo.com
 52.4.94.166                    hbonow.com
-52.44.78.25                    tracking.epicgames.com
-52.72.129.195                  registry-1.docker.io
-52.84.199.109                  fileres.synology.com
-52.84.199.116                  sdk-common-static.hoyoverse.com
-52.84.199.128                  sdk-common-static.hoyoverse.com
-52.84.199.2                    sdk-common-static.hoyoverse.com
-52.84.199.22                   sdk-common-static.hoyoverse.com
-52.84.199.51                   fileres.synology.com
-52.84.199.91                   fileres.synology.com
-52.84.199.99                   fileres.synology.com
-52.84.217.111                  www-ai.synology.com
-52.84.217.113                  sg-public-data-api.hoyoverse.com
-52.84.217.123                  www-ai.synology.com
-52.84.217.127                  sdk-common-api.hoyoverse.com
-52.84.217.25                   sg-public-data-api.hoyoverse.com
-52.84.217.26                   sdk-common-api.hoyoverse.com
-52.84.217.30                   sdk-common-api.hoyoverse.com
-52.84.217.47                   sdk-common-api.hoyoverse.com
-52.84.217.6                    www-ai.synology.com
-52.84.217.63                   sg-public-data-api.hoyoverse.com
-52.84.217.64                   sg-public-data-api.hoyoverse.com
-52.84.217.68                   www-ai.synology.com
+52.85.193.115                  media-cdn.epicgames.com
+52.85.193.117                  media-cdn.epicgames.com
+52.85.193.21                   media-cdn.epicgames.com
+52.85.193.55                   media-cdn.epicgames.com
 52.87.8.153                    hbogo.com
 52.87.8.153                    hbonow.com
-52.92.136.160                  s3.us-west-2.amazonaws.com
-52.92.190.8                    s3.us-west-2.amazonaws.com
-52.92.227.64                   s3.us-west-2.amazonaws.com
+52.92.238.184                  s3.us-west-2.amazonaws.com
+52.92.243.56                   s3.us-west-2.amazonaws.com
+52.92.251.112                  s3.us-west-2.amazonaws.com
 54.157.108.158                 amctv.com
 54.157.108.158                 cbs.com
 54.157.108.158                 mtv.com
@@ -17195,21 +17174,17 @@ $stylesheet,subdocument,third-party,xmlhttprequest,domain=canna-power.to|canna.t
 54.164.41.126                  turner.com
 54.200.108.238                 hbogo.com
 54.200.108.238                 hbonow.com
+54.204.25.166                  registry-1.docker.io
 54.225.198.196                 pbs.org
 54.225.206.152                 pbs.org
-54.231.162.129                 github-production-release-asset-2e65be.s3.amazonaws.com
-54.231.171.49                  github-production-release-asset-2e65be.s3.amazonaws.com
-54.231.198.209                 github-production-repository-file-5c1aeb.s3.amazonaws.com
-54.84.63.162                   registry-1.docker.io
+54.231.128.129                 github-cloud.s3.amazonaws.com
+54.231.170.185                 github-production-release-asset-2e65be.s3.amazonaws.com
+54.231.171.57                  github-production-repository-file-5c1aeb.s3.amazonaws.com
+54.231.225.177                 github-cloud.s3.amazonaws.com
+54.87.33.100                   registry-1.docker.io
 57.130.8.236                   hime.iwara.tv
-60.200.32.43                   xz.pphimalayanrt.com
-60.200.32.44                   xz.pphimalayanrt.com
-60.200.32.45                   xz.pphimalayanrt.com
-60.200.32.46                   xz.pphimalayanrt.com
-60.200.32.47                   xz.pphimalayanrt.com
-60.200.32.48                   xz.pphimalayanrt.com
-60.200.32.49                   xz.pphimalayanrt.com
-60.200.32.50                   xz.pphimalayanrt.com
+58.221.32.46                   d8.baidupcs.com
+58.222.20.46                   d8.baidupcs.com
 60.9.3.146                     media.st.dl.eccdnx.com
 60.9.3.147                     media.st.dl.eccdnx.com
 60.9.3.151                     media.st.dl.eccdnx.com
@@ -17217,16 +17192,13 @@ $stylesheet,subdocument,third-party,xmlhttprequest,domain=canna-power.to|canna.t
 60.9.3.167                     media.st.dl.eccdnx.com
 60.9.3.168                     media.st.dl.eccdnx.com
 61.147.237.35                  d10.baidupcs.com
-61.147.237.38                  v8.baidupcs.com
-61.147.237.46                  d8.baidupcs.com
+61.147.237.46                  d11.baidupcs.com
+61.147.237.46                  d9.baidupcs.com
 61.147.237.46                  v0.baidupcs.com
+61.157.38.46                   nbcache00.baidupcs.com
 61.163.9.46                    v3.baidupcs.com
-61.172.254.38                  v8.baidupcs.com
-64.233.177.188                 alt6-mtalk.google.com
-64.233.177.188                 alt6.mobile-gtalk4.l.google.com
-66.114.53.14                   cdn-ws.content.steamchina.com
-75.2.43.150                    fox.com
 76.223.18.1                    go.com
+76.223.34.124                  fox.com
 8.219.158.178                  update.miui.com
 8.222.136.13                   update.miui.com
 8.222.209.66                   update.miui.com
@@ -17238,11 +17210,9 @@ $stylesheet,subdocument,third-party,xmlhttprequest,domain=canna-power.to|canna.t
 98.83.184.133                  mtv.com
 98.83.184.133                  sho.com
 98.83.184.133                  spike.com
-98.85.115.1                    registry-1.docker.io
 98.87.170.71                   amazon.com
 98.87.170.74                   amazon.com
 98.88.87.14                    eulatracking-public-service-prod06.ol.epicgames.com
-99.83.186.106                  fox.com
 ://*.a-akamaihd.com^
 ://193.143.1.*
 ://199.191.50.
@@ -36876,6 +36846,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||5dbag40.no-ip.biz^
 ||5dcqlq-1a7z2-lrklni-lf676f.pages.dev^
 ||5dd044e588.com^
+||5ddd46546e.com^
 ||5dec6805a0.com^
 ||5df20e46f3.com^
 ||5df40cfbf3.com^
@@ -40388,6 +40359,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||868vip1.com^
 ||869.com^
 ||869944397f.51c3ffbef9.com^
+||86a5e7fc82.com^
 ||86a6b542l7.com^
 ||86a988b20f.com^
 ||86aa86d2f4.com^
@@ -42460,6 +42432,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||9fgh98k.com^
 ||9fine.ru^
 ||9fit2wycor8.bcf64ymzrjzj227h6t.cyou^
+||9fjvr8on98jkmlqowfe.cfd^
 ||9flash.com^
 ||9fnq2zhkkolqlzl.cyou^
 ||9fum.ifeng.com^
@@ -42699,6 +42672,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||9youwang.com^
 ||9ypd4f-516-udl47g-5lunxn.pages.dev^
 ||9yrsjs.close.futureisready.com^
+||9yspkomgq.com^
 ||9yt-xwxoa-yxqh-bva-bsx-0iz.pages.dev^
 ||9ywl0cwf7e37m5yi.tapin.gg^
 ||9yyg.cn^
@@ -45866,6 +45840,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||a907907.com^
 ||a911a1ed6c0.com^
 ||a91e9c75f8.com^
+||a929b2a873.com^
 ||a93.xyz^
 ||a9377j.com^
 ||a94.xyz^
@@ -54940,7 +54915,6 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||admin.falconpayglobal.com^
 ||admin.flexispy.com^
 ||admin.gamingo.club^
-||admin.gestroom.it^
 ||admin.gettopple.com^
 ||admin.giaminhmedia.vn^
 ||admin.growthwithhasan.com^
@@ -71836,6 +71810,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||alphamuscle.is^
 ||alphaomegahealth.com^
 ||alphaotomotiv.com^
+||alphapicaficagency.com^
 ||alphapioneer.com^
 ||alphaprecisioncapital.net^
 ||alphaputin.duckdns.org^
@@ -74134,6 +74109,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||amu-box.weebly.com^
 ||amu-edu-pl.ew.r.appspot.com^
 ||amu-univ00.weebly.com^
+||amuchcoenigma.cyou^
 ||amuckafternoon.com^
 ||amucksballone.com^
 ||amucresol.com^
@@ -92906,6 +92882,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||armfhefszehro.site^
 ||armfishloneliness.com^
 ||armfulmakari.shop^
+||armfulszostera.com^
 ||armgroup101.com^
 ||armhack.com^
 ||armhighlyexpress.com^
@@ -95014,6 +94991,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||asqcukoh.com^
 ||asqdfuhwian.com^
 ||asqemyfadrdfj.site^
+||asqfunkmi.in^
 ||asqlh.com^
 ||asqmvmastt.com^
 ||asqpniwvxea.com^
@@ -112667,6 +112645,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||bfagzzezgaegzgfaih.co^
 ||bfagzzezgaegzgfaio.io^
 ||bfagzzezgaegzgfair.cc^
+||bfakfxslixdbx.site^
 ||bfarmacia.com^
 ||bfast.com^
 ||bfatools.com^
@@ -116560,6 +116539,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||bitxtrad.com^
 ||bity.ws^
 ||bityah-sym.com^
+||bityalezjdkmo.online^
 ||bityl.co^
 ||bitz.io^
 ||bitz1.vip^
@@ -118093,6 +118073,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||bleemsync.net^
 ||bleemsync.org^
 ||bleepbloop.agency^
+||bleepedwite.cfd^
 ||bleepgizmorecital.com^
 ||blefarogel.ru^
 ||blehcourt.com^
@@ -121757,6 +121738,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||booking.bk3457zrg.com^
 ||booking.bookingverif2421.com^
 ||booking.brianwaldron.net^
+||booking.captcha-message-extranet.com^
 ||booking.com-830b2c931f.com^
 ||booking.com-approve-reservation.com^
 ||booking.com-id*
@@ -122106,6 +122088,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||booter.vip^
 ||booter.xyz^
 ||booterbs.no-ip.info^
+||booterymerch.cyou^
 ||bootesbee.com^
 ||bootfulfuel.qpon^
 ||boothmythevergreen.com^
@@ -123576,6 +123559,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||bqlmweiecxpxr.online^
 ||bqloqigu.com^
 ||bqlwyuoy.com^
+||bqmbcznkaz.icu^
 ||bqmiphtwrmcya.space^
 ||bqmvdaew.net^
 ||bqnn.cc^
@@ -148419,6 +148403,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||ckikq.com^
 ||ckiqxrqwnavqt.website^
 ||ckitwlmqy-c.today^
+||ckjccfzszctly.space^
 ||ckjjxjpoxhebx.site^
 ||ckjxece.com^
 ||ckjyck.qxs.la^
@@ -148429,6 +148414,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||ckkrlzxvy.com^
 ||ckl.fbmedia-ckl.com^
 ||cklad.xyz^
+||cklbdlzezyets.site^
 ||cklithuw.xyz^
 ||cklktqsludltvjk.com^
 ||cklld.pacersteamstore.com^
@@ -151751,6 +151737,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||cloud.brandskyddsforeningen.se^
 ||cloud.bullish.com^
 ||cloud.bygma.se^
+||cloud.calltop.com.br^
 ||cloud.characters.vu^
 ||cloud.cirrusresponse.com^
 ||cloud.clinicakaianakelin.com.br^
@@ -161829,6 +161816,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||cool8siteview.stigmaflowlink.garden^
 ||cooladata.com^
 ||cooladblocker.info^
+||coolairesgroup.com^
 ||coolamen.no-ip.org^
 ||coolandevencooler.com^
 ||coolapk.com/v6/feed/detail?$replace=/detailSponsorCard//
@@ -168574,6 +168562,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||cryptoukraine.xyz^
 ||cryptounity.net^
 ||cryptovalidate-dev.pages.dev^
+||cryptovectorhub1.lol^
 ||cryptover.org^
 ||cryptovoltonai.net^
 ||cryptovoorchristenen.nl^
@@ -175843,6 +175832,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||dahhegnmbrdgv.site^
 ||dahingplants.shop^
 ||dahkexes.com^
+||dahliascobble.shop^
 ||dahliasmishits.cyou^
 ||dahliasocietyy.com^
 ||dahlstr0m.com^
@@ -192482,6 +192472,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||dipgreysu.weebly.com^
 ||diping-qi.com^
 ||diplic.com^
+||diploescoins.qpon^
 ||diploisaloofly.com^
 ||diplokb.cyou^
 ||diplom-top.com^
@@ -194120,6 +194111,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||diverecollection.com^
 ||divergeimperfect.com^
 ||divergekokowailustrum.qpon^
+||divergent59.com^
 ||divergentld.com^
 ||divergentoffer.com^
 ||diverhaul.com^
@@ -200858,6 +200850,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||dryerloudapparatus.com^
 ||dryerpreliminarymainly.com^
 ||dryerslegatos.com^
+||dryerwasher.com^
 ||dryfaxot.com^
 ||dryflyinsights.com^
 ||dryfruitland.com^
@@ -202874,6 +202867,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||dupingnonsuit.cyou^
 ||dupinpu.com^
 ||dupionawald.cfd^
+||dupionignetums.qpon^
 ||dupjagsu.com^
 ||duplefirer.uno^
 ||duplexmanagement.co.uk^
@@ -203072,6 +203066,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||dustontail.top^
 ||dustoordebated.cfd^
 ||dustourrenewer.qpon^
+||dustpanchives.shop^
 ||dustswap.pages.dev^
 ||dustumbs.pro^
 ||dustydime.com^
@@ -206623,6 +206618,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||easyandhardwaysout.com^
 ||easyanti-cheat.com^
 ||easyapptrade.live^
+||easyaround.st^
 ||easyathle.live^
 ||easybank.abojo.dev^
 ||easybatteryfixed.net^
@@ -211124,6 +211120,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||ekjrvnfdlscmx.com^
 ||ekjyguvzxzlrb.online^
 ||ekkanicommu.click^
+||ekkekjnjdtwzc.site^
 ||ekkennels.com^
 ||ekkhgwp5atpuxdq.ru^
 ||ekklgpfmaviji.online^
@@ -211278,6 +211275,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||el2.no-ip.info^
 ||el2m3qr7v.com^
 ||el7kmdar0.ddns.net^
+||el8y1li5gbzjc8ix5m.cfd^
 ||ela-3-tnk.com^
 ||ela-warszawa.com^
 ||ela1.bankofscotland.co.uk^
@@ -216117,6 +216115,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||enherthertindown.xyz^
 ||enhesaplibul.com^
 ||enhhwenysfcmg.online^
+||enhtjdcyhgsgy.site^
 ||enhtrack.digital^
 ||enhwy.com^
 ||eni-france.fr^
@@ -219041,6 +219040,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||eschaton.pl^
 ||eschelbolts.com^
 ||eschelspatha.shop^
+||eschemialcove.org^
 ||eschemicalco.org^
 ||eschevefretty.shop^
 ||eschevepiscid.qpon^
@@ -221000,6 +221000,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||eumgzcvgskxcz.site^
 ||eumhpoozxdx.com^
 ||eumlu.hairfinity.com^
+||eumqihayfiail.site^
 ||eumromqtxaj.com^
 ||eumtjfyvqtamt.store^
 ||eumundi-style.com^
@@ -222804,6 +222805,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||evkc.com^
 ||evkeeza-e.regeneron.com^
 ||evkey.org^
+||evkiqntfztshq.online^
 ||evkjai.grandado.com^
 ||evkjlmtnqwwcu.space^
 ||evlega.ru^
@@ -224527,6 +224529,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||exponea-api.michiganlottery.com^
 ||exponea.com^
 ||exponea.riverisland.com^
+||exponeerase.cyou^
 ||exponeestated.com^
 ||exponent69.com^
 ||exponential.com^
@@ -229508,6 +229511,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||fbrheofkccovs.xyz^
 ||fbrojczjqlcxh.online^
 ||fbrq2.codesandbox.io^
+||fbrrykbaakuze.online^
 ||fbrsoll.ru^
 ||fbs-info.za.pl^
 ||fbs.smoot.apple.com^
@@ -233124,6 +233128,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||fileshare-storage.com^
 ||fileshare.vg^
 ||filesharee76.s3.eu-north-1.amazonaws.com^
+||fileshareengine.com^
 ||filesharefanatic.com^
 ||fileshider.com^
 ||filesiriuscloud.com^
@@ -250706,6 +250711,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||gd.frowzeveronal.com^
 ||gd.jqgc.com^
 ||gd.mlb.com^
+||gd.ozzhlb.net^
 ||gd.utejudder.com^
 ||gd.vodtw.com^
 ||gd.xxtvphoto.com^
@@ -286633,6 +286639,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||gynavotradeapp.com^
 ||gynax.com^
 ||gynecickorrel.cyou^
+||gynecolspreathtwitten.qpon^
 ||gynecomastie.goaserv.com^
 ||gynicsperdy.top^
 ||gynietrooe.com^
@@ -290248,6 +290255,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||hawkhosterz.com^
 ||hawkiee.no-ip.biz^
 ||hawkingtorvid.help^
+||hawklactyl.cyou^
 ||hawkmore.org^
 ||hawknutbiform.help^
 ||hawkrendforge.com^
@@ -294341,6 +294349,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||hexoymwhchabk.site^
 ||hexsa.in^
 ||hexsium.com^
+||hexsubjockocerago.qpon^
 ||hextrad.com^
 ||hextruvolin-app.live^
 ||hextruvolin-de.live^
@@ -295269,6 +295278,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||hidestats.online^
 ||hidesurfprotect.com^
 ||hidgfbsitnc.fun^
+||hidilbxggfhrg.site^
 ||hidist.com^
 ||hidjoi.perfumesclub.com^
 ||hidlessonana.com^
@@ -301178,6 +301188,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||hqrieta.s3.eu-north-1.amazonaws.com^
 ||hqrixc.dorocy.co.kr^
 ||hqrsuxsjqycv.info^
+||hqrwwabaicwpt.website^
 ||hqs.xyz^
 ||hqs1.cnzz.com^
 ||hqs4.cnzz.com^
@@ -301736,6 +301747,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||htagpa.tech^
 ||htajztellrgmu.space^
 ||htakr.cos.com^
+||htakwlafjrkhx.space^
 ||htalizer.com^
 ||htamaster.com^
 ||htaoei.herbchambershondaofseekonk.com^
@@ -304011,6 +304023,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||hygna.com^
 ||hygowyy.com^
 ||hygqtz.cn^
+||hygrinsurged.cyou^
 ||hygromycin-b-50mg-ml-solution.com^
 ||hyhavaflmeguk.site^
 ||hyhfsj.com^
@@ -305436,6 +305449,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||iartco.duckdns.org^
 ||iartmuseums.com^
 ||iarvyre.pw^
+||iarxfhusvjjfn.online^
 ||iasbetaffiliates.com^
 ||iasifaitp.ro^
 ||iask.cn^
@@ -311904,6 +311918,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||imputerpolecat.com^
 ||imputesmere.top^
 ||impvxbltkk.com^
+||impypetara.qpon^
 ||impzl.barrioqueen.com^
 ||imqfthrikod.com^
 ||imr.sk^
@@ -328735,6 +328750,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||jericofinch.no-ip.biz^
 ||jerjrqqzmzkzy.top^
 ||jerkarmlesspuppy.com^
+||jerkersavior.qpon^
 ||jerkishemmove.cfd^
 ||jerkorama.com^
 ||jerkroulette-fr.fr^
@@ -329735,6 +329751,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||jifenqiang.com^
 ||jiffehxjwvpoefo.xyz^
 ||jifflebreasts.com^
+||jifflegyrates.cfd^
 ||jiffyexpress.com^
 ||jifjai.instamotion.com^
 ||jifndw.unisono.eu^
@@ -347944,6 +347961,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||kzepp.com^
 ||kzeqq.com^
 ||kzerzsa.com^
+||kzeuwexuurwfeh.com^
 ||kzeww.com^
 ||kzfcgwhewnzjf.online^
 ||kzffucdjbxdfh.online^
@@ -348700,6 +348718,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||l5xpfq.fit^
 ||l6.fancyapi.com^
 ||l630.warkaudenlehti.fi^
+||l68hg9ppqbipnlhmpzmr69k.rest^
 ||l6906qxga.com^
 ||l6h17ybxe.com^
 ||l6l6.no-ip.biz^
@@ -359533,6 +359552,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||lirdawkin.com^
 ||lirdooch.xyz^
 ||lireadzwxtrbh.space^
+||liresett.qpon^
 ||lirioinvestezatrade.com^
 ||lirium.com.co^
 ||liriwylila.info^
@@ -360005,6 +360025,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||livahd7.live^
 ||livaro.shop^
 ||livatech.com^
+||livauxgwqfjks.space^
 ||livaxxen.com^
 ||livdecor.pt^
 ||live-3rivers-fcu-101.firebaseapp.com^
@@ -371403,6 +371424,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||lorgnonanvils.top^
 ||lorgtbzlfxixd.online^
 ||loricalreach.info^
+||loricearners.shop^
 ||loricmoped.com^
 ||loriellebeauty.de^
 ||lorientalus.com^
@@ -375209,7 +375231,6 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||luxauracoaching.com^
 ||luxbetaffiliates.com.au^
 ||luxbycc.com^
-||luxcar-24.com^
 ||luxcash.ru^
 ||luxcdn.com^
 ||luxchecker.pw^
@@ -382130,6 +382151,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||marasgumpus.com^
 ||marashmara.dx.am^
 ||marassociate.cyou^
+||marathaclichtopeng.qpon^
 ||marathiglowed.cfd^
 ||marathistatuspro.com^
 ||marathonbet.com^
@@ -407125,6 +407147,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||mnsfwn.temponabytok.sk^
 ||mnshuwlcupdid.space^
 ||mnsportsbet.com^
+||mnsqbobgtwknc.site^
 ||mnt.sbisec.co.jp^
 ||mntamasklogen.gitbook.io^
 ||mntasest.lol^
@@ -414477,6 +414500,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||muskingumcounty.myportfolio.com^
 ||muskinvest.org^
 ||muskitsdemigod.help^
+||muskitsstealth.cfd^
 ||muskoxambier.cfd^
 ||muskpromo.com^
 ||muskstock.com^
@@ -416780,6 +416804,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||mynameismoody.no-ip.biz^
 ||mynamejewelry.shop^
 ||mynanosparkle.com^
+||mynastrows.qpon^
 ||mynativeads.com^
 ||mynavuphldssocdn.wixstudio.com^
 ||mynavyfedral.org^
@@ -419877,6 +419902,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||natrivexquantix87.digital^
 ||natrivexx-770-it.fyi^
 ||natrivix.com^
+||natrixcussed.cfd^
 ||natrixelliov92-it.fyi^
 ||natrlsoftware.com^
 ||nats.hushmoney.com^
@@ -423166,6 +423192,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||neuroxs.tes1aprodj.click^
 ||neurro.tes1aprodj.click^
 ||neurtafix.site^
+||neurulaphyma.qpon^
 ||neustar.biz^
 ||neusysinc.com^
 ||neutcurve.site^
@@ -427656,6 +427683,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||nkyhhjrnguuhu.site^
 ||nkyyls.cn^
 ||nkyzsgitgjdam.space^
+||nkzpdrzccbpztg.com^
 ||nkzraznjstbsv.space^
 ||nl-ad-lgsmartad-com.aws-prd.net^
 ||nl-ad-refresh.mediahuis.com^
@@ -427908,6 +427936,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||nlztpmhcxyzwh.vip^
 ||nlzxclfg.com^
 ||nlzyp.cn^
+||nlzytvggxlebe.online^
 ||nlzz7a3md4sx.com^
 ||nm.5.p2l.info^
 ||nm.bustleusurps.com^
@@ -428628,6 +428657,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||nodedapp-launchpad.pages.dev^
 ||nodedapp-memekombat.pages.dev^
 ||nodedapps-tgcasino.pages.dev^
+||nodeddriven.shop^
 ||nodefusionup.site^
 ||nodegoai.com^
 ||nodejs-download.co.com^
@@ -433144,6 +433174,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||nw-rail-03.com^
 ||nw-umwatson.events.data.microsoft.com^
 ||nw-updater.vercel.app^
+||nw.almfwb.com^
 ||nw1ftj-gp.myshopify.com^
 ||nw2lyeda8k.data.adobedc.net^
 ||nw6irmcbm9t518.cfd^
@@ -433739,6 +433770,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||nyvqazwtcwk.com^
 ||nyvtex.digital^
 ||nyvzocirybwts.website^
+||nywbhaaanfpqj.site^
 ||nywwxxsjbbyv.org^
 ||nywwxxsjbbyv.pk^
 ||nyx-bets-casino.fr^
@@ -439470,6 +439502,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||om3rbs.no-ip.org^
 ||om472739-dotcom.github.io^
 ||om843se.txxx.com^
+||omaaz.com^
 ||omaceran.pw^
 ||omada20.ddns.net^
 ||omada91.ddns.net^
@@ -448070,6 +448103,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||oxigen.site^
 ||oximedica.com^
 ||oxinahpvmdpmm.space^
+||oxiomibwmvfhh.online^
 ||oxioracraft.site^
 ||oxipath.site^
 ||oxipkvzcdzh.com^
@@ -449488,6 +449522,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||packlogistic.com^
 ||packman.no-ip.biz^
 ||packmanvape.de^
+||packmate.in^
 ||packpremium.fr^
 ||packsaddlefellowship.com^
 ||packsdechicas.online^
@@ -450637,6 +450672,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||palladiumbot42-fr.live^
 ||palladiumbot42.live^
 ||palladiumnederland.com^
+||pallahwauve.cyou^
 ||pallairrate.com^
 ||pallaliven.com^
 ||pallars.org^
@@ -456612,6 +456648,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||pephozanig.net^
 ||pepin.padlet.com^
 ||pepinapig.xyz^
+||pepinoimposesnachus.cyou^
 ||pepipo.com^
 ||pepites-du-coin.com^
 ||pepleb.ekosport.de^
@@ -473730,6 +473767,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||priorityappliance.repair^
 ||prioritycucumbers.com^
 ||prioritylotantagonize.com^
+||prioritysaliva.com^
 ||priorkt.com^
 ||priorled.com^
 ||priortreasonpositive.com^
@@ -484118,6 +484156,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||qbpamfcntbprjw.com^
 ||qbpchpcuglu.com^
 ||qbpkyvtnxslrk.website^
+||qbqsrjvxssnvh.space^
 ||qbqzbzbzzzjjb.top^
 ||qbr8mk2lbx.sbs^
 ||qbreport.html5.qq.com^
@@ -485745,6 +485784,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||qlixorpoint.com^
 ||qljbncscqxlez.online^
 ||qljczwei.com^
+||qljfywisoiqpi.online^
 ||qljgzzflmlp.com^
 ||qljiop.allabout.co.jp^
 ||qljmj.westandwillow.com^
@@ -485923,6 +485963,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||qmqmv.jacksonandperkins.com^
 ||qmqvmajkdotgw.com^
 ||qmrdfwiipsam.com^
+||qmrelvbjbzjew.top^
 ||qmrelvevwllzb.top^
 ||qmrelvevwlwlw.top^
 ||qmrhu.iheartraves.com^
@@ -492341,6 +492382,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||ravencoinipfs-gateway.com^
 ||ravenenvoy.com^
 ||ravenerfeower.qpon^
+||ravenermommas.qpon^
 ||ravenfortbitfund-soft.com^
 ||ravenfundmere.live^
 ||ravenfundmere.net^
@@ -494088,6 +494130,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||rebuxoos.xyz^
 ||rebuylengest.cfd^
 ||rebvdcsxkinlzmk.com^
+||rebwrcpzujwbs.website^
 ||rebystion.org^
 ||rec-ac-lyon.fr^
 ||rec-netflix.com^
@@ -498594,6 +498637,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||res.mmstat.com^
 ||res.ms^
 ||res.noxmobi.com^
+||res.oa.opera.com^
 ||res.paruvendu.fr^
 ||res.pay.ionos.com^
 ||res.pinpai8.cn^
@@ -503610,6 +503654,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||roastedtastyfood.com^
 ||roastedvolt.net^
 ||roastengirt.cfd^
+||roastersodygat.cyou^
 ||roastfashioned.com^
 ||roastortoast.us^
 ||roastoup.com^
@@ -509995,6 +510040,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||rxjqqt.joyreactor.cc^
 ||rxjs-lv18nb.stackblitz.io^
 ||rxjvmsvfvstue.website^
+||rxjvvqtdnxsfta.com^
 ||rxkayupbjvt.com^
 ||rxkcapital.com^
 ||rxkekzusevdok.com^
@@ -518456,6 +518502,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||screen-mates.com^
 ||screen-neck-article.com^
 ||screen.buzzvil.com^
+||screen.lixiiimunchiihamzzz.live^
 ||screen13.com^
 ||screenacy.co^
 ||screenaddict.thewhizproducts.com^
@@ -542683,6 +542730,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||simicaseros.pro^
 ||simicenter.com^
 ||simicloud.com^
+||similar-context.pro^
 ||similardeals.net^
 ||similarfrustration.com^
 ||similaritiesdice.best^
@@ -546015,6 +546063,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||slissi.site^
 ||slit.lewd.rip^
 ||slitneitheradorn.com^
+||slittychecke.shop^
 ||sliubbvrf.com^
 ||slivercommander.cn^
 ||sliveronrealestateservices.com^
@@ -546927,6 +546976,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||smarthomehungyen.com^
 ||smarthomerabatt.de^
 ||smarthometechnologyyn.info^
+||smarthomy.cl^
 ||smarthouseapp.com^
 ||smarthub-revive.mpcnet.de^
 ||smarthub.ws^
@@ -554528,6 +554578,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||soilanalysis.co.in^
 ||soilborn.net^
 ||soilcontent.com^
+||soiledswops.shop^
 ||soilenthusiasmshindig.com^
 ||soilgnaw.com^
 ||soilhostunit.stigmaflowlink.garden^
@@ -558359,6 +558410,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||spamvertising.com^
 ||spanceldeodand.rest^
 ||spancelwielded.com^
+||spanegeums.cfd^
 ||spanenewstoday.com^
 ||spanflowbase.com^
 ||spania.no^
@@ -577704,6 +577756,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||static-cdn-349.net^
 ||static-cdn.spott.ai^
 ||static-cdn.xyz^
+||static-cliff.lol^
 ||static-cloudflare.workers.dev^
 ||static-cn.plista.com^
 ||static-cnt.bi^
@@ -582817,6 +582870,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||stfcshop.com^
 ||stfdhrkj.com^
 ||stfeukufunden.org^
+||stfhhdglvwmut.website^
 ||stfowevsn.com^
 ||stfqwogcmrqqy.website^
 ||stfrancisvilla.com^
@@ -608322,6 +608376,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||tidyinglionesscoffee.com^
 ||tidyingpreludeatonement.com^
 ||tidyinteraction.pro^
+||tidymail.pro^
 ||tidyme.app^
 ||tidyme.io^
 ||tidymitten.com^
@@ -629907,6 +629962,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||tyraekove.com^
 ||tyranbrashore.com^
 ||tyrangrocersauce.com^
+||tyrannyvarvel.cfd^
 ||tyrantdb.com^
 ||tyrauber.org^
 ||tyrds.com^
@@ -631639,6 +631695,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||uektb.com^
 ||uektedsni.com^
 ||uektouluarthe.site^
+||uekxdybhcdkpg.space^
 ||uel-uel-fie.com^
 ||uelclnfeaxlur.online^
 ||ueleensadcyxh.site^
@@ -632938,6 +632995,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||ukjygwcfaawce.online^
 ||ukjytikyut.dsmtp.com^
 ||ukkkmg.xyz^
+||ukkngphlpvcgi.site^
 ||ukkrf.com^
 ||uklakeshoreridge.com^
 ||uklakesidegrove.com^
@@ -634853,6 +634911,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||unblocktheship.org^
 ||unbluedprovene.shop^
 ||unboatkip.cyou^
+||unbogwhift.cyou^
 ||unbokeltelegn.qpon^
 ||unboltcoran.cfd^
 ||unboltsseugh.guru^
@@ -638759,6 +638818,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||urvanto.shop^
 ||urvasiodissi.com^
 ||urvcatww.weebly.com^
+||urvgmsrrkp.com^
 ||urvico.shop^
 ||urvlentoki-at.com^
 ||urvlentoki-de.live^
@@ -643851,6 +643911,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||vau.stagland.hu^
 ||vaudeberlin.de^
 ||vaudeville44.top^
+||vaudioscamaca.qpon^
 ||vaudyvd.cyou^
 ||vaugaimooteptoy.net^
 ||vaugaiva.net^
@@ -643875,6 +643936,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||vault-pulse.ru^
 ||vault-safepics.info^
 ||vault-sentinel.com^
+||vault-static.shop^
 ||vault-stats.sladewatkins.net^
 ||vault.4serv.net^
 ||vault.derby.de^
@@ -668987,6 +669049,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||woldwardrobe.shop^
 ||woldymuggy.qpon^
 ||wole.us^
+||woleaiapnoeatraik.qpon^
 ||wolexezegokaful.info^
 ||wolf-327b.com^
 ||wolf-glas-und-kunst.de^
@@ -684141,6 +684204,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||xbntrnsfgmhiw.space^
 ||xbnzc.com^
 ||xbofirnnmzlprd.com^
+||xbold171e.com^
 ||xboolean.com^
 ||xboot.net^
 ||xbosvsupnbtzx.website^
@@ -690055,6 +690119,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||xusqqicassjoh.website^
 ||xuthid.com^
 ||xutixatum.com^
+||xutjjrvscjjny.website^
 ||xutolr.mainichikirei.jp^
 ||xutolr.mantan-web.jp^
 ||xutpiayukwxsl.online^
@@ -691998,6 +692063,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||yaunfang.a.qianxin.com.cdn.dnsv1.com^
 ||yaupaibcfqfvh.online^
 ||yauponbotone.com^
+||yaupontrucing.cfd^
 ||yauryqvecn.com^
 ||yautube.com^
 ||yauztedgzgwbt.online^
@@ -696729,6 +696795,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||yummypornos.com^
 ||yummyzilla.com^
 ||yumomis.com^
+||yumswqbnhgl.com^
 ||yumsxk.dermals.org^
 ||yumuhw.cotepro.fr^
 ||yumuniversity.goaserv.com^
@@ -697102,6 +697169,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||yw.flexityrepick.com^
 ||yw78.cn^
 ||yw800.com.cn^
+||yw8qeql2k7p2h3gww.rest^
 ||yw9f088h61.com^
 ||ywadf.cn^
 ||ywadk.top^
@@ -699205,7 +699273,6 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||zc5722.com^
 ||zcaadfl.com^
 ||zcacbymusrtrr.space^
-||zcalton.com^
 ||zcand.com^
 ||zcaod.com^
 ||zcapieuheltue.store^
@@ -704805,6 +704872,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||zvay.online^
 ||zvb.us^
 ||zvbqi.cycologyclothing.com^
+||zvbqvqbljblle.top^
 ||zvbqvqbrwbaez.top^
 ||zvbqya.marideal.mu^
 ||zvbsqp.jionmeditech.com^
