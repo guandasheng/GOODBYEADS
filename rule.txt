@@ -1,5 +1,5 @@
-! Version: 2026-11-04 02:44:34（北京时间） 
-! Total count: 708791
+! Version: 2026-11-04 11:40:43（北京时间） 
+! Total count: 708902
 !
 ! ! https://github.com/AdguardTeam/AdguardFilters/issues/191933
 ! ! https://github.com/AdguardTeam/Scriptlets/issues/160
@@ -2411,7 +2411,7 @@
 # Title: 5whys Full block Adguard Home Rules List
 # Title: AdGuard、AdGuardHome广告过滤规则合并/去重 - adgh.txt
 # Total number of rules = 540487
-# Update time: 2026-11-03 13:24:15
+# Update time: 2026-11-04 03:03:15
 # Verison: 202611031719
 # https://adaway.org/hosts.txt
 # https://adguardteam.github.io/HostlistsRegistry/assets/filter_1.txt
@@ -2461,7 +2461,7 @@
 #例如"toutiao(头条)"，"MIUI xiaomi (小米)"，"reward(奖励)"。
 #在相应行的开头加个"#"号
 #提速测试
-#更新时间: 2026-11-03 13:46:32
+#更新时间: 2026-11-04 04:26:00
 #有问题可以在文件里搜索关键词
 #规则数量:12439
 $stylesheet,subdocument,third-party,xmlhttprequest,domain=canna-power.to|canna.to,badfilter
@@ -38291,6 +38291,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||6bd9a2ea1a1801e55.com^
 ||6bgaput9ullc.com^
 ||6bgubwkwoh.com^
+||6blw4whh5lc83lji3y7q2l83m.cfd^
 ||6botfblmw.5wq34119tj8mvbfpqrngio.cyou^
 ||6buueioe.xyz^
 ||6bw5uj.88884zeebz6um74p3qn7eggep.cfd^
@@ -46580,6 +46581,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||aafirstone.no-ip.biz^
 ||aafns.xyz^
 ||aafpgw.hickies.fr^
+||aafrjewsszwiv.site^
 ||aafuck.xyz^
 ||aafvpzegxwqmti.firebaseapp.com^
 ||aafvpzegxwqmti.web.app^
@@ -56320,6 +56322,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||ads-ap.adaptv.advertising.com^
 ||ads-api-new-2052271615.ap-northeast-1.elb.amazonaws.com^
 ||ads-api-o.api.leiniao.com^
+||ads-api.daum.net^
 ||ads-api.duolingo.com^
 ||ads-api.ft.com^
 ||ads-api.hackadoll.com^
@@ -64849,6 +64852,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||afutfjyhihsdy.space^
 ||afuy.com^
 ||afuz032.com^
+||afvcrykaqo.in^
 ||afvnzlgxo.com^
 ||afvrolvial.com^
 ||afvwwjcplvq.com^
@@ -65864,6 +65868,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||ahgmivwzpjuxz.site^
 ||ahgpi.org^
 ||ahgpiumykrvtj.site^
+||ahgrlvcedusvr.site^
 ||ahgvk.truthtreatments.com^
 ||ahh8.cn^
 ||ahhaz.nomadlane.com^
@@ -67140,6 +67145,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||airtraveler.club^
 ||airtrvl.com^
 ||airts3.duckdns.org^
+||airtsroyalty.cyou^
 ||airup-romania.com^
 ||airupfrance-fr.fr^
 ||airuppoland.com^
@@ -67186,6 +67192,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||aiseet.atianqi.com^
 ||aiseries.info^
 ||aisfokgqw.online^
+||aisgbphgmpnis.site^
 ||aisgt.herbaloasis.com^
 ||aisha-khadija.blogspot.com^
 ||aishaiptolsolti.net^
@@ -68862,6 +68869,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||aldi-ie.celtrona.com^
 ||aldi-ie.purviscleaningservices.com^
 ||aldi-ie.westelmsleep.com^
+||aldi-life.vip^
 ||aldi-market.herbpot.shop^
 ||aldi-sell.phantomquill.shop^
 ||aldi-shop.glowcandle.shop^
@@ -73040,6 +73048,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||amc.swiss^
 ||amc.yandex.ru^
 ||amcarebank.com^
+||amccfczlswotq.online^
 ||amcdn.vn^
 ||amcestey.com^
 ||amcgheepublishing.com^
@@ -73352,6 +73361,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||amicapitolex.digital^
 ||amicapitolex.net^
 ||amicapitolexsolution.com^
+||amiceroper.cyou^
 ||amichi.info^
 ||amici.nz^
 ||amicithoron.com^
@@ -85166,6 +85176,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||api-music-analytics.deezer.com^
 ||api-n.outgrow.co^
 ||api-napoli.store.sscnapoli.it^
+||api-node.corvexa.cloud^
 ||api-nodefix.pages.dev^
 ||api-notify.markarch.com^
 ||api-nxs-v4.mentamob.com^
@@ -94947,6 +94958,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||astscolipedeor.com^
 ||astspewpaor.com^
 ||asttcp.vatera.hu^
+||asttoxa.ru^
 ||asttv.com^
 ||astudiodance.live^
 ||astuff.clicknplay.to^
@@ -99338,6 +99350,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||awggij.wplay.co^
 ||awgiyrcpiqmf.com^
 ||awgolwafqcwpe.space^
+||awgrxtcvxnjqa.online^
 ||awgsmfzrslcp.com^
 ||awgutqp.cc^
 ||awh3vupyf.com^
@@ -122131,6 +122144,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||bqntkevvmkk.com^
 ||bqnycimizqnnd.website^
 ||bqofy.dinosty.de^
+||bqohmtzgtwyvi.space^
 ||bqoiz.ingoodtaste.com^
 ||bqoulb.nowo.pt^
 ||bqplydkjst.com^
@@ -125483,6 +125497,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||bsoabpxfs.njasu.de^
 ||bsochf.no-ip.biz^
 ||bsodsm8r.xamzgjedu.com^
+||bsoezfextjrla.space^
 ||bsolaoecm.xyz^
 ||bsonlineshophk.com^
 ||bsonwage.no-ip.biz^
@@ -137108,6 +137123,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||cb75.vip^
 ||cb7cb7.ddns.net^
 ||cb8c2d0b74.e695de9aef.com^
+||cb8z3jj5ir3mw2.rest^
 ||cb94716.tmweb.ru^
 ||cb9825.wbur.org^
 ||cba-fed-igh.com^
@@ -140205,6 +140221,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||cekrfk.com^
 ||ceksevairs.com^
 ||cekvhkqq.uitgeverij-deviant.nl^
+||cekxakzxmkgsm.site^
 ||cekzdbewgnzu.com^
 ||cel-obrestnica.pro^
 ||cel.dermals.org^
@@ -140934,6 +140951,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||ceremonysystemsfried.com^
 ||cereouslooeys.qpon^
 ||ceresko.com^
+||ceresshoepac.cyou^
 ||cerezbox.com^
 ||cerezgo.com^
 ||cerezify.com^
@@ -146119,6 +146137,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||civilengineeringiit.com^
 ||civilera.com^
 ||civileregence.shop^
+||civilermake.cfd^
 ||civilerunfeaty.shop^
 ||civileunresty.com^
 ||civilhir.net^
@@ -150602,6 +150621,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||cm8.lycos.com^
 ||cm88.com^
 ||cm98.cc^
+||cma88.vip^
 ||cmad.nikkeibp.co.jp^
 ||cmads.sv.publicus.com^
 ||cmads.us.publicus.com^
@@ -182588,6 +182608,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||dbco.cn^
 ||dbcqicgchi.com^
 ||dbcru.ryka.com^
+||dbcsbfwaegztc.space^
 ||dbcwetd5akfpstw.ru^
 ||dbd9fffe-dfc5-43f4-8038-7db8c3ca093a.random.loanzify.app^
 ||dbdb.addea.workers.dev^
@@ -192751,6 +192772,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||djhighway.com^
 ||djhighwayacademy.com^
 ||djhost.nl^
+||djhvqumujikde.site^
 ||djibeacon.djns.com^
 ||djibjamowntzl.online^
 ||djiboutdifficial.info^
@@ -197364,6 +197386,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||dpkubdncmez.com^
 ||dpl-pr-googletm-tagging-1717453208.eu-central-1.elb.amazonaws.com^
 ||dplantz.com^
+||dplapevefntpx.online^
 ||dpleisureleeds.com^
 ||dplhmvbt.halsobolaget.se^
 ||dplk.rivalenti.cz^
@@ -199404,6 +199427,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||dsgmtransporte.com.br^
 ||dsgnbu.com^
 ||dsgnjf.com^
+||dsgqxzkacskjx.online^
 ||dsgsif.com^
 ||dsgsvc.eneto.com^
 ||dsgsvc.wattano.de^
@@ -200758,6 +200782,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||duhrat.no-ip.biz^
 ||duhrawhide.com^
 ||duhtate.ru^
+||duhurzgxqzncg.website^
 ||duhxgrfaziemg.site^
 ||dui25pvlzkfzpkkc.ws^
 ||dui88.com^
@@ -206443,6 +206468,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||ebusgamgwrxig.site^
 ||ebutiseemedlikeal.xyz^
 ||ebuxxxxx.duckdns.org^
+||ebuy8.shop^
 ||ebuyg.mom^
 ||ebuyy.shop^
 ||ebuzing.com^
@@ -216126,6 +216152,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||epilreoffer.com^
 ||epimacevseirm.com^
 ||epimerbeep.top^
+||epimersdiscos.com^
 ||epimetheus.navigator.gmx.net^
 ||epimetheus.navigator.web.de^
 ||epina.com.ng^
@@ -221448,6 +221475,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||evmidbyvygns.com^
 ||evmodi0.ddns.net^
 ||evmuro.shop^
+||evmxvermhmljo.website^
 ||evmyclkocfcnr.space^
 ||evnbankcredit.info^
 ||evncredit.online^
@@ -228046,6 +228074,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||fbo-statistics-collector-tc.is.flippingbook.com^
 ||fbo.app^
 ||fboirhttd.com^
+||fbojksrucqczm.space^
 ||fbolloiwd.com^
 ||fbookappsuitpolsk.framer.website^
 ||fbookhelpsupport.firebaseapp.com^
@@ -228612,6 +228641,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||fdsag.com^
 ||fdsd11.com^
 ||fdsd22.com^
+||fdseb8s0y.com^
 ||fdsfsfsfs.xyz^
 ||fdsgdsfg543.zzz.com.ua^
 ||fdsgsdfd.gettrials.com^
@@ -233944,6 +233974,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||fitgirl-repacks.proxyninja.org^
 ||fitgirl-repacks.theproxy.vip^
 ||fitgirl-repacks.to^
+||fitgirl-repacks.vip^
 ||fitgirl-repacks.website^
 ||fitgirl.cc^
 ||fitgirlpack.site^
@@ -234495,6 +234526,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||fkcvtiqbbgedb.com^
 ||fkczwsqlpdokj.online^
 ||fkdaik.lightinthebox.com^
+||fkdeavpxkjuoa.space^
 ||fkdhbmsss.com^
 ||fkdplern.shop^
 ||fkdpzz.com^
@@ -240842,6 +240874,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||freeadultpron.com^
 ||freeadultsexcams.com^
 ||freeallsafe.com^
+||freealremark.org^
 ||freealts.pw^
 ||freeamazongiftcardsnow.com^
 ||freeasphost.net^
@@ -247469,6 +247502,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||gaokao.asia^
 ||gaokr.xyz^
 ||gaolageakali.cyou^
+||gaolcomptlytaxable.cfd^
 ||gaomingbo.com^
 ||gaopinoa.cn^
 ||gaoshengzx.com^
@@ -248399,6 +248433,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||gax9pb.close.futureisready.com^
 ||gaxduni.shop^
 ||gaxeda.info^
+||gaxejjfvhogej.space^
 ||gaxkyokrghyts.online^
 ||gaxmuli.shop^
 ||gaxolsipoust.net^
@@ -278829,6 +278864,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||gthug.agrenappliance.com^
 ||gthw.com^
 ||gthxeggedfcko.space^
+||gthyh6v842zvoxvnk1lpff8y8en2jx4t.cfd^
 ||gti-capital.com^
 ||gti.consored.com^
 ||gti.relieval.com^
@@ -293442,6 +293478,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||helpfulavenue.com^
 ||helpfulbrass.com^
 ||helpfulcloister.com^
+||helpfulmaple.com^
 ||helpfulwebrobot.com^
 ||helphauntboxer.com^
 ||helpher.linkpc.net^
@@ -299247,6 +299284,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||hordeinabramis.cfd^
 ||hordejgdkhu.weebly.com^
 ||hordeli.shop^
+||hordesfrappe.cfd^
 ||hordesproport.digital^
 ||hordeumtooken.com^
 ||hordeweb.weebly.com^
@@ -301726,6 +301764,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||hts2.de^
 ||htseca.top^
 ||htshadow.no-ip.org^
+||htspggvvemyge.online^
 ||htstyrpfhmdhp.site^
 ||htswu.com^
 ||htsyesqrcfwvl.online^
@@ -306191,6 +306230,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||icshu.com^
 ||icslearn.actonsoftware.com^
 ||icsnds.com^
+||icsocthifkbge.online^
 ||icsolutions.goaserv.com^
 ||icsondersteuning.firebaseapp.com^
 ||icsondersteuning.web.app^
@@ -324167,6 +324207,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||issuecdn.baidupcs.com^
 ||issuedkuvasz.com^
 ||issuefloor-bridge.com^
+||issuersclothes.cyou^
 ||issuerswalkist.qpon^
 ||issueserviceasap.firebaseapp.com^
 ||issueserviceasap.web.app^
@@ -330759,6 +330800,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||jkwtqsbmxfako.com^
 ||jkwxaryiaoof.com^
 ||jkwybt9hc.com^
+||jkxhafagsdbma.website^
 ||jkxihdymwxueh.space^
 ||jkxlzrxhtqrdr.online^
 ||jkxvvv.xyz^
@@ -332168,6 +332210,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||joovideo.us^
 ||joovy.ga^
 ||joowkijejv.com^
+||joowrimbxopnu.site^
 ||joox-affiliate.sanook.com^
 ||joox388-online.com^
 ||jooyoptical.com^
@@ -334447,6 +334490,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||jujwhjmtidgp.com^
 ||jujzh9va.com^
 ||jukax.ddns.net^
+||jukcdvsgozbiy.space^
 ||jukcha.com^
 ||jukebox.com^
 ||jukebox.pathfactory.com^
@@ -335771,6 +335815,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||jyekwgudnajsai.com^
 ||jyeratfdlomnw.online^
 ||jyfa.xyz^
+||jyfddsmcthvfw.space^
 ||jyfghfgs.toshibanetcam.com^
 ||jyfght.cn^
 ||jyfikoo.com^
@@ -343314,6 +343359,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||kmeltonbeauty.com^
 ||kmeqdnmgdkpn.com^
 ||kmeqeuhj.1000farmacie.it^
+||kmetheughs.cfd^
 ||kmevwkkqe.com^
 ||kmfcqeqhsqdld.online^
 ||kmfdesign.com^
@@ -343653,6 +343699,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||kngs365officiel.fr^
 ||kngusa.com^
 ||knhccb.revivalanimal.com^
+||knhcehpvrnbiy.space^
 ||knhef.no-ip.biz^
 ||knhmgn.com^
 ||knhtqq.tpmn.kr^
@@ -346429,6 +346476,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||ktml.org^
 ||ktmoutlet.at^
 ||ktmvzffnawzug.space^
+||ktndfphaxeiyq.site^
 ||ktndqk.oriba.com.br^
 ||ktnffoevvbaco.site^
 ||ktniifnh.com^
@@ -350819,6 +350867,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||lasikofmichigan.com^
 ||lasikshop.com^
 ||lasikstation.com^
+||lasingpmt.cfd^
 ||lasiniciativas.com^
 ||lasiout.cfd^
 ||lasioy.lafarmaciaonline.com^
@@ -378363,6 +378412,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||lznvjcoceddyi.online^
 ||lzoazzruvkze.com^
 ||lzompagaklma.com^
+||lzopmoas.in^
 ||lzoqkmi1y31n892ovon9kfx.oelup71j7mpj6ch4u.cyou^
 ||lzov.cn^
 ||lzowrfhqy.com^
@@ -378891,6 +378941,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||m.cocwallcrafter.fun^
 ||m.codlw.com^
 ||m.coenr.com^
+||m.coinexeu.vip^
 ||m.color6.cn^
 ||m.comboyu.com^
 ||m.communications.ihmvcu.org^
@@ -383853,6 +383904,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||mansfieldspurtvan.com^
 ||mansfieldtimes.com^
 ||mansfrancoise.wixsite.com^
+||mansion-xenarthran.info^
 ||mansion.co.zw^
 ||mansion88.com^
 ||mansionappointmentmoon.com^
@@ -384505,6 +384557,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||marievonmallwitzverlag.de^
 ||marigo.redbacksburger.info^
 ||marigoldrow.eu^
+||marigoodby.cfd^
 ||marijuanaclosenessblotch.com^
 ||marijuanadogbone.com^
 ||marijuanahead.no-ip.info^
@@ -392242,6 +392295,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||mauchopt.net^
 ||maudau.com^
 ||maudfkdsuyp.com^
+||maudleclubmansurras.cyou^
 ||maudmyron.no-ip.biz^
 ||maudonce.com^
 ||mauersberger-rechtsanwalt.de^
@@ -403367,6 +403421,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||mhggzg.com^
 ||mhglihmafzbhq.site^
 ||mhglue.xyz^
+||mhgmbxdjtohmb.site^
 ||mhgshawy.guru^
 ||mhgu.cn^
 ||mhgulzhluhcvt.space^
@@ -406019,6 +406074,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||miserly-physics.pro^
 ||miserly-stay.com^
 ||miserly-wrap.com^
+||miserybisksbishari.cyou^
 ||miseryclevernessusage.com^
 ||miseventos.orem.com.mx^
 ||misfields.com^
@@ -421859,6 +421915,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||navi24.ru^
 ||navi26.ru^
 ||navi27.ru^
+||navi28.ru^
 ||navi3.com^
 ||navi30.com^
 ||navi30.ru^
@@ -428924,6 +428981,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||njrnwan.cn^
 ||njrrs.com^
 ||njrt1212.no-ip.biz^
+||njrzsnbgomkzd.website^
 ||njs.imagicskin.com^
 ||njs.reliancevalve.com^
 ||njsarhluoqxqo.store^
@@ -434006,6 +434064,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||nunhoefey.com^
 ||nuniceberg.com^
 ||nunixtrade.net^
+||nunnifysparkle.com^
 ||nunnujvsoodd.xyz^
 ||nunobana.com^
 ||nunqubqafa.com^
@@ -439203,6 +439262,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||oifyeldk.top^
 ||oifyyeiuwnpzc.space^
 ||oigduusrva.com^
+||oigreykofphcz.site^
 ||oihdgpxipqavpxaumvg.com^
 ||oihgombbziwby.online^
 ||oihjkobiyortd.space^
@@ -439427,6 +439487,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||oiyivlyqglj.com^
 ||oiylclkpohspa.space^
 ||oiysoleknqk.xyz^
+||oizfzrjavugyq.space^
 ||oizqaraplcgnr.online^
 ||oizs.cn^
 ||oj.429men.com^
@@ -439465,6 +439526,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||ojepsahainekse.net^
 ||ojepuqxoj.com^
 ||ojetksxeb.com^
+||ojevjamihdgxf.site^
 ||ojfascbw.in^
 ||ojfavxvujawd.com^
 ||ojfotraqjg.in^
@@ -439499,6 +439561,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||ojklhghuj.nordicoil.fi^
 ||ojkomnzi.com^
 ||ojktwzisvpb.com^
+||ojlkimed.vip^
 ||ojllcpefclund.store^
 ||ojlsxt.pigment.co.kr^
 ||ojm4.palladiumhotelgroup.com^
@@ -439572,6 +439635,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||ojvxtz.junonline.jp^
 ||ojvzloxxhcetw.space^
 ||ojwapnolwa.com^
+||ojwblyznkhapl.site^
 ||ojwebb.vivaaerobus.com^
 ||ojwecrhig.com^
 ||ojwf.com^
@@ -446317,6 +446381,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||orviion.com^
 ||orvillebosksbougee.cyou^
 ||orvillehogtie.com^
+||orviwiatndnfy.website^
 ||orvqwylf.in^
 ||orvuensari.com^
 ||orvustix.digital^
@@ -456440,6 +456505,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||pbnkz.flairespresso.com^
 ||pbnncdnkcnncjikj.org^
 ||pbnnsras.com^
+||pbnsbetvavbho.website^
 ||pbntime.com^
 ||pbnusnsr.com^
 ||pbnzgmotvibem.space^
@@ -457168,6 +457234,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||pdpohrkfxrxrz.website^
 ||pdptebicpdmry.online^
 ||pdqkkzouflx.com^
+||pdqvqmzxsnwte.space^
 ||pdqwaan.cn^
 ||pdqzrlfcyihsc.store^
 ||pdr.eve.sonyentertainmentnetwork.com^
@@ -459622,6 +459689,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||pfwdca329.55477.com^
 ||pfwufhoblovfz.website^
 ||pfxlive.com^
+||pfxrcmdqklsld.online^
 ||pfyalardueu.com^
 ||pfyndypko.com^
 ||pfytpzssrhyah.website^
@@ -461140,6 +461208,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||phosptthorescence.info^
 ||phot75oo1n61nv3fpln63l3g6k.cyou^
 ||photcloudbeost.site^
+||photicssuttees.cfd^
 ||photismdotherbiggah.cfd^
 ||photo-0973.firebaseapp.com^
 ||photo-0973.web.app^
@@ -461311,6 +461380,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||phounsaitchou.net^
 ||phouptoatch.net^
 ||phourdee.com^
+||phournaghaahu.site^
 ||phourtookepta.net^
 ||phoussaizupsam.net^
 ||phoutsitchaun.net^
@@ -478272,6 +478342,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||psikologlistesi.com^
 ||psikoofack.com^
 ||psilaurgi.net^
+||psilemjexhttc.site^
 ||psilikaki.openapp.link^
 ||psilsophulsich.net^
 ||psiludymilaleal.com^
@@ -478295,6 +478366,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||psitopiion.openapp.link^
 ||psixoahi.xyz^
 ||psj07.no-ip.org^
+||psjadixqzliqg.online^
 ||psjdover.com^
 ||psjtbuzcrj.com^
 ||psju.com^
@@ -482343,6 +482415,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||purrheal.com^
 ||purring-wood-magnolia.glitch.me^
 ||purrkit.shop^
+||purrmolify.cyou^
 ||purroneovistscouse.qpon^
 ||purrreasonablemedic.com^
 ||purrrrrrrr.net^
@@ -483890,6 +483963,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||pzpcbt.icu^
 ||pzpotdmpv.com^
 ||pzpr.duckdns.org^
+||pzpvrkegstxrv.site^
 ||pzpvweoxjm.com^
 ||pzq7ilwvv.com^
 ||pzqfmhy.com^
@@ -485200,6 +485274,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||qfkaoczpmoreo.site^
 ||qfkmyf.clarins.com^
 ||qfkpz.xdrama.com^
+||qfkuuzpoynibg.online^
 ||qfkvarapofvmu.online^
 ||qflcnpyfqxedr.space^
 ||qflm.net^
@@ -489751,6 +489826,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||qwti.cn^
 ||qwtrmnaewnctq.space^
 ||qwttqrao.page.link^
+||qwtukixnvmrdx.online^
 ||qwtvtf.smiggle.co.nz^
 ||qwuanvab.com^
 ||qwubjdcxzwwpw.site^
@@ -493614,6 +493690,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||rdedkdhyuyghl.online^
 ||rdek.ru^
 ||rdelivery.qq.com^
+||rdemlukxlxtrj.online^
 ||rdenergysolutions.ca^
 ||rderstartirrelea.com^
 ||rderstartirrelea.info^
@@ -497281,6 +497358,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||relax.greenbits.com^
 ||relaxafford.com^
 ||relaxation-seed.xyz^
+||relaxcsvote.shop^
 ||relaxdom.com.pl^
 ||relaxed-hawking-14d35a.netlify.app^
 ||relaxed-profiterole-a5516cterrier-ren.netlify.app^
@@ -498891,6 +498969,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||rerekatu.com^
 ||rergaxhihmuli.website^
 ||rergeema.com^
+||rergkrakgvxpa.online^
 ||rerise.in^
 ||rerisepaleae.com^
 ||rerisesgarnets.cyou^
@@ -499700,6 +499779,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||restaurantratiobeach.ro^
 ||restaurantrefused.com^
 ||restaurantsstar.com^
+||restaurrothershangan.cfd^
 ||restaurwwateurs.info^
 ||restchess.com^
 ||restcloud.xyz^
@@ -503465,6 +503545,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||rmetrix.superbid.net^
 ||rmfah.guudies.co^
 ||rmfbrz.icu^
+||rmfdjplxffznf.website^
 ||rmffg.tadibrothers.com^
 ||rmfkpysvzygpa.online^
 ||rmfnmkuwsgeje.website^
@@ -503594,6 +503675,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||rmzsglng.com^
 ||rmztc.bostonscally.com^
 ||rmzyteljkkeds.website^
+||rmzzjmbshnjbo.space^
 ||rn.cm^
 ||rn.nursegrid.com^
 ||rn.zr.zqebgwzkhs94.idy360.com^
@@ -509935,6 +510017,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||rweesp.loberon.at^
 ||rwefsw55.com^
 ||rwegh.sa.com^
+||rwejcjqvhmwxg.online^
 ||rwejwldl.shop^
 ||rwemepyfibwvu.space^
 ||rwetadfopniyg.lovable.app^
@@ -517594,6 +517677,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||scarpaspolska.com^
 ||scarpbooking.ru^
 ||scarpedatennis.com^
+||scarreddeponer.com^
 ||scarvesrepaid.com^
 ||scarwan.com^
 ||scary-carrot-165104.framer.app^
@@ -546463,6 +546547,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||slpineexyksjm.website^
 ||slpmcfdljsntwp.com^
 ||slqcfosyuqqsj.site^
+||slqdkguiypxzu.online^
 ||slqhoitusidsr.site^
 ||slqyrvijxviet.com^
 ||slreinigungsfirma.de^
@@ -559215,6 +559300,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||spindynasty1.fr^
 ||spindynastycasino-fr.fr^
 ||spindynastycasino.fr^
+||spinefeltmankalpak.cfd^
 ||spineklinik.com^
 ||spinello.fr^
 ||spineporousposter.com^
@@ -594434,6 +594520,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||sycochic.com^
 ||sycockpeelers.cfd^
 ||syconesglue.qpon^
+||syconidexcheat.cfd^
 ||syconusinsider.qpon^
 ||sycosescsi.qpon^
 ||sycrgc.xyz^
@@ -598768,6 +598855,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||tadlkyhryl.com^
 ||tadmak.com^
 ||tadmv.com^
+||tadodpfikom.in^
 ||tadogem.com^
 ||tadowin.com^
 ||tadozqgv.com^
@@ -599947,6 +600035,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||tailorcave.com^
 ||tailoredcopy.com^
 ||tailorfunctionknuckle.com^
+||tailorydemele.com^
 ||tailpgjpearanc.com^
 ||tailscale-ai.us^
 ||tailscale-ai.world^
@@ -603977,6 +604066,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||tegrooxo.xyz^
 ||teguascopalm.help^
 ||teguhburning.blogspot.nl^
+||tegymvxaqpdoj.site^
 ||tegypia.lovable.app^
 ||tegzmxqlna.fit^
 ||tegzmxqlna.ink^
@@ -607510,6 +607600,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||tetto.carlaarrabitoarchitetto.it^
 ||tettone-18.dddaa.com^
 ||tettrro.info^
+||tettvlflcprdr.site^
 ||teturner.com^
 ||tetvxsedkmlgh.site^
 ||tetyerecently.com^
@@ -634731,6 +634822,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||u5lddcsi.xyz^
 ||u5nvu.xyz^
 ||u5ps5.icu^
+||u5r27xblmpv1pp.rest^
 ||u5s5.com^
 ||u5smvk9bg.com^
 ||u5uthf.polanez.pl^
@@ -635941,6 +636033,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||ueoxrpmuqlspj.online^
 ||uep.gaijin.net^
 ||uepd.com^
+||ueqgrzwnziqmt.site^
 ||ueqjychtgl.net^
 ||ueqkrtmgiokeg.site^
 ||ueqlkvv.bar^
@@ -636036,6 +636129,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||ufeuca.icu^
 ||ufeuyyfoguo.com^
 ||ufevkhzatjnfa.online^
+||uffpoomcsktub.site^
 ||uffpsmfefu.com^
 ||uffqearh.indigolfclubs.com^
 ||uffubjqcdy.com^
@@ -637617,6 +637711,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||uliydc.study^
 ||uljbjmfmgenbh.online^
 ||uljg.cn^
+||uljmkkewrunla.space^
 ||ulk8je1fv9.com^
 ||ulka-gallery.yoyo.pl^
 ||ulkegundemi.info^
@@ -639278,6 +639373,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||undsr.com^
 ||undtr.com^
 ||undullcervid.help^
+||unduolraqlrco.online^
 ||undurs.1md.org^
 ||undustystubber.qpon^
 ||undutyflee.cfd^
@@ -645285,6 +645381,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||uycxhgrp.xyz^
 ||uydeapvmmlvdp.com^
 ||uydeqs9.xyz^
+||uydrnhsb.info^
 ||uydsjtaeibues.online^
 ||uyduwdmzcwkn.com^
 ||uydyqlnebqlwe.global^
@@ -651035,6 +651132,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||vexicash.com^
 ||vexiebox.myshopify.com^
 ||vexiez.no-ip.info^
+||vexilladuper.cyou^
 ||vexilorath.com^
 ||vexio19.net^
 ||vexiost.shop^
@@ -658081,6 +658179,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||vpudoktor.com^
 ||vpufuchs.com^
 ||vpumfeghiall.com^
+||vpumhrzrfdjgc.site^
 ||vpuonpcwtjgwe.online^
 ||vputest.online^
 ||vpuuzj.schnullireich.de^
@@ -659786,6 +659885,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||vxjkzdzvas.com^
 ||vxjlqfzmlezli.site^
 ||vxjwxv.icu^
+||vxjxgmqdfwenp.site^
 ||vxjycwnmildux.online^
 ||vxk5q-wh27-edjt-tz4xy3-1svhl4.pages.dev^
 ||vxkfvzhduws.com^
@@ -660831,6 +660931,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||waardevonk.net^
 ||waardex.com^
 ||waardinatie.net^
+||waasitcawi.cfd^
 ||waatch.gva.be^
 ||waatch.hbvl.be^
 ||waatch.nieuwsblad.be^
@@ -660876,6 +660977,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||wackeerd.com^
 ||wackotracko.com^
 ||wackpaysage.cfd^
+||wackstoun.cyou^
 ||wackyday.com^
 ||wackysite.duckdns.org^
 ||wackysketch.com^
@@ -664399,6 +664501,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||web3-projects-beta.vercel.app^
 ||web3-swaps.com^
 ||web3-uaidh.formstack.com^
+||web3-uniswap-uniswap.org^
 ||web3-uzawv.formstack.com^
 ||web3-wallet-exodas.wasmer.app^
 ||web3-wsmcasino.netlify.app^
@@ -669059,6 +669162,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||wicdn.cloud^
 ||wich-reisen.de^
 ||wichauru.xyz^
+||wichcarientaguan.cyou^
 ||wichitastandard.com^
 ||wichnqeikfdp.com^
 ||wichoaltaisheel.net^
@@ -675899,6 +676003,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||wweizae.top^
 ||wwejlo.best^
 ||wweqeizpoqjfu.online^
+||wwesvxfqdabhf.space^
 ||wwetjy.com^
 ||wwew.no-ip.biz^
 ||wwewuqdsxgcei.space^
@@ -688356,6 +688461,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||xgxncacvhbfud.site^
 ||xgxokdvjgzmoo.space^
 ||xgyamkbizucnd.store^
+||xgyfzcnypzvas.space^
 ||xgysd.com^
 ||xgysy.aureumcollective.com^
 ||xgyvaf.easydew.co.kr^
@@ -693551,6 +693657,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||xxxbetcasino.fr^
 ||xxxbf.tv^
 ||xxxblackbook.com^
+||xxxbqfmvmmfjt.space^
 ||xxxbullet.com^
 ||xxxbyhxp.com^
 ||xxxc.fun^
@@ -698743,6 +698850,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||yqdtemmxurjn.in^
 ||yqeaelhqycxcp.website^
 ||yqecjuoxiquvr.com^
+||yqehntfitbylp.online^
 ||yqeo.com^
 ||yqepkjcpcxnay.space^
 ||yqeshhkcliqgh.website^
@@ -702340,6 +702448,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||zcxxdar.b0tnet.com^
 ||zcy821.com^
 ||zcyclbncgubccl.com^
+||zcyllaortfdtu.site^
 ||zcymvyglyjyxu.online^
 ||zcypmsp.icu^
 ||zcyqxsvquhmwq.website^
@@ -707694,6 +707803,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||zuosex.com^
 ||zuosiitbbbrxd.space^
 ||zuowen.hydcd.com^
+||zuozuoshoe.shop^
 ||zupcrxfechrmx.store^
 ||zupee.cim^
 ||zupertech.com^
@@ -708098,6 +708208,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||zx7q.rakousko.cz^
 ||zx9.de^
 ||zx9m.com^
+||zxaatlfjhb.com^
 ||zxackx-54545.portmap.host^
 ||zxaoopbthcrlh.online^
 ||zxaoudwcljrtig.com^
